@@ -42,15 +42,6 @@ export const PresenterNotesDrawer: React.FC<Props> = ({
 
           {/* Speaker Notes Body (Only the Speaker's Notes, Clean & Easy to Read) */}
           <div className="flex-1 overflow-y-auto p-6 md:p-8 space-y-4">
-            <div className="border-b border-[#2A231E] pb-3 mb-2">
-              <h3 className="text-xl md:text-2xl font-editorial font-bold text-[#FDFBF7]">
-                {slide.title}
-              </h3>
-              <p className="text-xs text-[#E59A2F] font-mono mt-1">
-                "{slide.subtitle}"
-              </p>
-            </div>
-
             <div className="text-sm md:text-base text-[#E2D8CC] leading-relaxed whitespace-pre-line font-sans selection:bg-[#C83E2D] selection:text-white">
               {slide.speakerScript}
             </div>

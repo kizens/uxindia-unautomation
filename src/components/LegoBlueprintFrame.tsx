@@ -27,28 +27,7 @@ export const LegoBlueprintFrame: React.FC = () => {
         }}
       />
 
-      {/* 2. Automated Micro-Interaction: Ultra-Light, Non-Intrusive Laser Scan Sweep */}
-      <motion.div
-        animate={{ y: ['-10%', '420%', '-10%'] }}
-        transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
-        className="absolute left-0 right-0 pointer-events-none z-30"
-        style={{
-          height: '24px',
-          background: 'linear-gradient(to bottom, transparent, rgba(56, 189, 248, 0.02), rgba(56, 189, 248, 0.08), transparent)',
-          mixBlendMode: 'screen'
-        }}
-      >
-        {/* Subtle, Crisp Hairline Laser Beam */}
-        <div 
-          className="w-full h-[1px] absolute top-1/2 left-0 -translate-y-1/2"
-          style={{
-            background: 'linear-gradient(to right, transparent, rgba(56, 189, 248, 0.15) 12%, rgba(56, 189, 248, 0.5) 50%, rgba(56, 189, 248, 0.15) 88%, transparent)',
-            boxShadow: '0 0 8px rgba(56, 189, 248, 0.25)'
-          }}
-        />
-      </motion.div>
-
-      {/* 3. Crisp Vector Architectural Blueprint Schematic Lines (Zero text, pure geometry) */}
+      {/* 2. Crisp Vector Architectural Blueprint Schematic Lines (Zero text, pure geometry) */}
       <svg className="absolute inset-0 w-full h-full pointer-events-none z-10" viewBox="0 0 400 500" fill="none">
         <defs>
           <filter id="blueprintSoftGlow" x="-20%" y="-20%" width="140%" height="140%">
@@ -175,24 +154,6 @@ export const LegoBlueprintFrame: React.FC = () => {
           <circle cx="200" cy="220" r="136" stroke="#388BFD" strokeWidth="0.8" strokeDasharray="1 7" opacity="0.35" />
         </motion.g>
 
-        {/* --- Top Lego Stud Projection (Perspective Blueprint Cylinder) --- */}
-        <g stroke="#38BDF8" strokeWidth="1.3" opacity="0.75" filter="url(#blueprintSoftGlow)">
-          <ellipse cx="200" cy="52" rx="26" ry="7" fill="none" />
-          <line x1="174" y1="52" x2="174" y2="72" />
-          <line x1="226" y1="52" x2="226" y2="72" />
-          <path d="M 174,72 A 26,7 0 0,0 226,72" fill="none" />
-          <ellipse cx="200" cy="52" rx="14" ry="3.8" strokeDasharray="3 2" stroke="#255D96" />
-          
-          {/* Stud Horizontal Dimension Witness Lines */}
-          <g stroke="#388BFD" strokeWidth="1" opacity="0.7">
-            <line x1="174" y1="44" x2="174" y2="32" />
-            <line x1="226" y1="44" x2="226" y2="32" />
-            <line x1="166" y1="36" x2="234" y2="36" />
-            <polyline points="174,33 168,36 174,39" />
-            <polyline points="226,33 232,36 226,39" />
-          </g>
-        </g>
-
         {/* --- Lego Minifigure Body Blueprint Contour Guidelines --- */}
         <g stroke="#255D96" strokeWidth="1.2" opacity="0.6">
           {/* Neck Collar Ring */}
@@ -237,10 +198,10 @@ export const LegoBlueprintFrame: React.FC = () => {
         {/* --- Dimension Lines with Precision Tick Marks (No text) --- */}
         <g stroke="#38BDF8" strokeWidth="1.2" opacity="0.7">
           {/* Left Main Height Dimension */}
-          <line x1="38" y1="52" x2="38" y2="484" />
-          <line x1="30" y1="52" x2="46" y2="52" />
+          <line x1="38" y1="110" x2="38" y2="484" />
+          <line x1="30" y1="110" x2="46" y2="110" />
           <line x1="30" y1="484" x2="46" y2="484" />
-          <polyline points="35,62 38,52 41,62" fill="none" />
+          <polyline points="35,120 38,110 41,120" fill="none" />
           <polyline points="35,474 38,484 41,474" fill="none" />
           <line x1="33" y1="336" x2="43" y2="336" />
           <line x1="33" y1="426" x2="43" y2="426" />

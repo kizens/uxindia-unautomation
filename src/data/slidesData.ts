@@ -32,24 +32,23 @@ export const SLIDES_DATA: SlideMeta[] = [
     slug: "speaker-intro",
     title: "Sujit Pradhan",
     themePhrase: "Hello, I'm Sujit",
-    subtitle: "UX Designer at Google • Ex-Microsoft • Ex-Amazon",
+    subtitle: "UX Designer at Google • Microsoft • Amazon • ONN Bikes • Incture Technologies",
     timeRange: "3:00 - 5:00",
     targetMinutes: 2,
     badge: "ACT I • THE SPEAKER",
-    citations: ["Google", "Microsoft", "Amazon", "KIIT"],
-    visualDirection: "Sujit's 3D clay/plasticine Van Gogh Starry Night portrait with witty career bio and personal quirks.",
+    citations: ["Google", "Microsoft", "Amazon", "ONN Bikes", "Incture Technologies"],
+    visualDirection: "Sujit's 3D clay Van Gogh Starry Night portrait in an architectural blueprint frame.",
     mainQuote: "Hello, I'm Sujit",
-    subQuote: "UX Designer at Google • Ex-Microsoft • Ex-Amazon",
+    subQuote: "UX Designer at Google • Microsoft • Amazon • ONN Bikes • Incture Technologies",
     talkingPoints: [
-      "Currently UX Designer III at Google, designing People Operations (POps) touchpoints.",
-      "Survived the Big Tech trifecta: Amazon → Microsoft → Google.",
-      "Started with a BTech in Computer Science from KIIT—defected to UX when discovering pixels have more empathy than compiler errors.",
-      "Lego architect & sneaker hoarder: still believes assembling things with your bare hands builds intuition and soul.",
-      "Passionate about keeping human empathy alive in an era of automated templates."
+      "UX Designer at Google, designing Agentic enterprise ecosystems.",
+      "Design journey across Microsoft, Amazon, ONN Bikes, and Incture Technologies.",
+      "CS engineering background from KIIT—defected to UX for human empathy.",
+      "Believer in tactile craft: off-screen Lego builder and sneaker collector."
     ],
-    speakerScript: "Before we talk about machines and brains, a quick word about who I am and why I care so deeply about this topic.\n\nMy name is Sujit Pradhan. Right now, I design People Operations experiences at Google here in Hyderabad. Before Google, I spent years designing at Microsoft and Amazon—which basically means I've spent a decade debating whether a primary action button should be 44 pixels or 48 pixels across three different tech giants.\n\nI actually started as a Computer Science engineer at KIIT. I wrote actual code, broke actual production builds, and then had an epiphany: Figma has auto-layout, and humans are infinitely more interesting than compiler logs. So I defected to design.\n\nWhen I'm not moving vectors, I'm an obsessive Lego builder and sneaker collector. I spend hours snapping physical plastic bricks together piece by piece—because there's something therapeutic about manual, tactile craft that no prompt can ever replicate. That belief in human craft and tangible care is why I wanted to give this talk today.",
+    speakerScript: "I'm Sujit Pradhan. Right now, I design Agentic enterprise ecosystems at Google, following design journeys across Microsoft, Amazon, ONN Bikes, and Incture Technologies.\n\nI started in Computer Science, broke production builds, and quickly realized humans are far more interesting than compiler logs.\n\nOff-screen, I'm an obsessive Lego builder and sneaker collector. Snapping bricks by hand reminds me that tactile, human discernment can never be automated. That conviction is why we are having this conversation today.",
     keyTakeaway: "A coder-turned-designer who believes manual craft and taste cannot be automated.",
-    stepsCount: 3
+    stepsCount: 1
   },
   {
     id: 3,
