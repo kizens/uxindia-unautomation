@@ -36,7 +36,7 @@ export const Slide01_Confession: React.FC<SlideProps> = ({ step }) => {
         </h1>
 
         <p className="text-2xl sm:text-3xl md:text-4xl text-[#D0C5B4] font-light tracking-wide mb-12 drop-shadow">
-          By a human. Powered by an idea.
+          Reclaiming craft. Guided by judgment.
         </p>
 
         {/* Centered Stepped Beats */}

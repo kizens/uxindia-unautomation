@@ -26,7 +26,7 @@ A large screenshot of a very formal, elegant email invitation that says: **"UX I
 
 ### Slide Content
 > **Design Un-automated**
-> *By a human. Powered by an idea.* [346, 360]
+> *Reclaiming craft. Guided by judgment.* [346, 360]
 
 ### Speaker Script & Talking Points
 "Hello, everyone! It is an absolute privilege to stand here on this stage at UX India [480]. Look around the room—we have an incredible, diverse community of creators here today [138, 480]. 

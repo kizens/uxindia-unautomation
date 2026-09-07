@@ -1,6 +1,6 @@
 # 🇮🇳 Design Un-automated: Reclaiming the Soul of Design in the Age of Autopilot
 > **A Keynote Presentation Website for UX India 2026**
-> *By a human. Powered by an idea.*
+> *Reclaiming craft. Guided by judgment.*
 
 This repository contains the interactive keynote presentation website built for **UX India**. It embodies a warm, minimal retro Indian illustration aesthetic combined with contemporary Swiss-editorial typography, high-impact micro-animations, and zero-hover stage clicker ergonomics.
 
