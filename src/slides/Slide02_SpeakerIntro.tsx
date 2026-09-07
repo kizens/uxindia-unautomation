@@ -27,19 +27,18 @@ export const Slide02_SpeakerIntro: React.FC<SlideProps> = ({ step }) => {
               <span>HYDERABAD, INDIA</span>
             </div>
 
-            {/* Headline: Sujit Pradhan */}
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-4">
-              Sujit <br />
-              <span className="text-[#E59A2F] italic">Pradhan.</span>
+            {/* Headline: Sujit Pradhan (Single line) */}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-tight mb-3">
+              Sujit <span className="text-[#E59A2F] italic">Pradhan.</span>
             </h1>
 
-            {/* Google Line + Ex-MSFT & AMZN Below */}
+            {/* Google Line + MSFT & AMZN Below */}
             <div className="mb-6 space-y-1">
               <p className="text-xl sm:text-2xl text-[#FDFBF7] font-medium">
                 UX Designer at Google
               </p>
               <p className="text-base sm:text-lg text-[#A89F91] font-light font-mono">
-                • Ex-Microsoft • Ex-Amazon
+                Microsoft • Amazon
               </p>
             </div>
 
