@@ -12,6 +12,21 @@
     --accent-indigo: #204060;
   }
 
+  *, *::before, *::after {
+    user-select: text;
+    -webkit-user-select: text;
+  }
+
+  ::selection {
+    background-color: #C83E2D;
+    color: #FFFFFF;
+  }
+
+  ::-moz-selection {
+    background-color: #C83E2D;
+    color: #FFFFFF;
+  }
+
   body {
     font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
     background-color: var(--bg-dark);
@@ -19,6 +34,8 @@
     overflow: hidden;
     margin: 0;
     padding: 0;
+    user-select: text;
+    -webkit-user-select: text;
   }
 
   h1, h2, .font-editorial {
