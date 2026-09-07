@@ -77,7 +77,7 @@ export const Slide01_Confession: React.FC<SlideProps> = ({ step }) => {
                 transition={{ duration: 0.35 }}
                 className="text-base sm:text-lg md:text-xl text-[#FFA499] font-mono"
               >
-                Then the chill: I had turned myself into an intellectual tourist in my own talk.
+                But had I turned myself into an intellectual tourist in my own talk?
               </motion.div>
             )}
           </AnimatePresence>

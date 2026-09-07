@@ -41,7 +41,7 @@ In seconds, it spit out dozens of titles, polished outlines, and rich content [1
 
 And I am not going to lie, for a second, it felt like a superpower [141, 372]. I thought, *'Wow, this is so easy! I have solved the presentation problem!'* [141, 353]
 
-But then, a cold chill ran down my spine [142]. I realized that I had just fallen headfirst into the exact trap I wanted to warn you about [157, 346]. I had just outsourced my own reason [348]. I had turned myself into an intellectual tourist in my own talk, visiting these slides instead of inhabiting them [349]. 
+But then, a cold chill ran down my spine [142]. I realized that I had just fallen headfirst into the exact trap I wanted to warn you about [157, 346]. I had just outsourced my own reason [348]. But had I turned myself into an intellectual tourist in my own talk, visiting these slides instead of inhabiting them? [349] 
 
 So today, we are going to look into that exact mirror [114]. We are going to talk about what happens when we automate design completely, what we lose when we let machines do the thinking, and how we reclaim our actual superpower [157, 368]."
 
