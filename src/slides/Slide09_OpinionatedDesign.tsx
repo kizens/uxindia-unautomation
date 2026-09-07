@@ -67,7 +67,7 @@ export const Slide09_OpinionatedDesign: React.FC<SlideProps> = ({ step }) => {
                     exit={{ opacity: 0, y: -10 }}
                     className="text-base md:text-lg text-[#F5B041] font-mono border-l-2 border-[#E59A2F] pl-3"
                   >
-                    "You are being paid for the confidence you have in your taste." — Rick Rubin
+                    "You are being paid for the confidence you have in your taste." (Rick Rubin)
                   </motion.div>
                 )}
               </AnimatePresence>

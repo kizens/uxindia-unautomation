@@ -70,7 +70,7 @@ export const Slide02_AutopilotFlow: React.FC<SlideProps> = ({ step }) => {
                     exit={{ opacity: 0, y: -10 }}
                     className="text-base md:text-lg text-[#E59A2F] font-mono border-l-2 border-[#E59A2F] pl-3"
                   >
-                    If our only job is predictable layouts, we aren't designing—we're copy-pasting the expected.
+                    If our only job is predictable layouts, we aren't designing: we are copy-pasting the expected.
                   </motion.div>
                 )}
               </AnimatePresence>

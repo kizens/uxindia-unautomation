@@ -65,7 +65,7 @@ Then, we ask the AI to map John’s 'user journey' [445]. Instantly, it spits ou
 
 It looks like a perfect process [446]. It is clean, it is fast, and we didn't have to experience a single moment of human friction or disagreement [149, 446]. Our portfolios are 80% filled with these gorgeous process artifacts—journeys, maps, personas, and stickies [453].
 
-But here is the hard, uncomfortable truth: **the user does not give a single shit about your process artifacts** [453, 454]. They don't care about your perfectly formatted journey map [454]. They care about the actual, raw experience they feel when they touch your product [116, 454]. 
+But here is the hard, uncomfortable truth: **the user does not care about your process artifacts** [453, 454]. They don't care about your perfectly formatted journey map [454]. They care about the actual, raw experience they feel when they touch your product [116, 454]. 
 
 And right now, because of these tools, a Product Manager can prototype a working app faster than you can write a 'How Might We' statement on a digital sticky note [445, 448]. Product managers are vibe coding, engineering is automating, and everyone is doing everything [142, 449, 545]. 
 

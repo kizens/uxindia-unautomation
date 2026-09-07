@@ -112,7 +112,7 @@ export const Slide08_HumiliatingMirror: React.FC<SlideProps> = ({ step }) => {
               <div className="relative rounded-lg overflow-hidden border border-[#44382E]">
                 <img
                   src={barberDuskImg}
-                  alt="Dusk Indian Street — Unmappable Human Lived Soul"
+                  alt="Dusk Indian Street: Unmappable Human Lived Soul"
                   className="w-full h-28 md:h-32 object-cover filter saturate-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#12100E] via-black/40 to-transparent flex items-end p-2.5">
