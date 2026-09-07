@@ -42,7 +42,7 @@ export const SlideOverviewModal: React.FC<Props> = ({
                     Keynote Slide Navigator
                   </h2>
                   <p className="text-xs font-mono text-[#A89F91]">
-                    Design Un-automated • UX India 2026 • 10 Slides
+                    Design Un-automated • UX India 2026 • {slides.length} Slides
                   </p>
                 </div>
               </div>

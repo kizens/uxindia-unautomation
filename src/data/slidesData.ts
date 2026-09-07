@@ -274,5 +274,29 @@ export const SLIDES_DATA: SlideMeta[] = [
     speakerScript: "How do we start practicing Design Un-automated tomorrow morning? We follow three rules:\n\n1. Stop competing on speed and volume. AI will always generate more options faster. Compete on meaning and curation: having the taste to pick the single option that connects with a human being.\n\n2. Practice 'Productive Resistance'. Do not treat AI as a compliant intern autocompleting your wireframes. Use the Microsoft Research approach: have it challenge your assumptions, find logical holes, and argue against your ideas.\n\n3. Start validating more before you are confident. Keep your critical thinking muscles active on daily messy tasks so you are ready when complex systems challenges arrive.\n\nThis brings us back to my confession. Yes, I used AI to help structure this presentation. But the core idea, the struggle, the taste, and the opinion had to come from ME. Hitting the 'Easy Button' did not mean doing less work: it gave me the space to do MORE THINKING.\n\nSo I leave you with this question for UX India: What would you rather have? A tool that thinks for you, or a tool that makes you think? Thank you so much!",
     keyTakeaway: "A tool that thinks for you, or a tool that makes you think?",
     stepsCount: 4
+  },
+  {
+    id: 12,
+    slideNumber: "12",
+    slug: "thank-you",
+    title: "Thank You & Connect",
+    themePhrase: "Prompt the Human",
+    subtitle: "Prompt the human, not just the machine.",
+    timeRange: "30:00+",
+    targetMinutes: 2,
+    badge: "FINALE • CONNECT",
+    citations: ["Google", "UX India 2026", "Linktree"],
+    visualDirection: "Warm retro studio background, holographic QR code connect device with animated laser scanner, and interactive keynote decoder.",
+    mainQuote: "Prompt the Human, not just the machine.",
+    subQuote: "Reclaiming craft. One deliberate human decision at a time.",
+    talkingPoints: [
+      "Thank you to UX India for hosting this honest conversation.",
+      "The full circle: returning to our craft studio with renewed conviction.",
+      "Scan the QR code to connect on Linktree, LinkedIn, or argue about AI over chai.",
+      "Remember: never bring a forklift to the gym. Stay in the driver's seat."
+    ],
+    speakerScript: "Thank you so much, UX India! It has been an absolute honor. If there is one thing to take away from our time together: prompt the human, not just the machine. Scan the QR code on the screen to connect, grab a coffee, or debate the future of agentic UX. Have a wonderful rest of the conference!",
+    keyTakeaway: "Prompt the human, not just the machine. Keep human discernment at the center.",
+    stepsCount: 2
   }
 ];
