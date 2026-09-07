@@ -107,7 +107,7 @@ Or connect your GitHub repository in the Netlify dashboard.
 
 ## 📋 The 10-Slide Keynote Structure
 
-1. **Slide 01: The Confession (0:00 - 3:00)** — The formal invitation, the exhausted quarter, the 3.2s ChatGPT prompt, and the chilling realization of becoming an intellectual tourist.
+1. **Slide 01: The Confession (0:00 - 3:00)** — The formal invitation, the exhausted quarter, the 3.2s Gemini prompt, and the chilling realization of becoming an intellectual tourist.
 2. **Slide 02: The Illusion of "Design Automated" (3:00 - 6:00)** — The frictionless autopilot assembly line; why users don't care about process artifacts.
 3. **Slide 03: The Danger of "The Blur" (6:00 - 9:00)** — Tilburg University April 2026 meta-analysis; collective semantic diversity collapse ($d = 0.70$ drop in ideation/design).
 4. **Slide 04: The Core vs. Non-Core Trap (9:00 - 12:00)** — Dr. Anil Doshi's Westminster study; the forklift at the gym metaphor; the Core vs. Non-core decision matrix.

@@ -35,7 +35,7 @@ But before we dive into the deep, philosophical questions of our craft, I have a
 
 A few months ago, I got this beautiful email inviting me to deliver a keynote here [480]. I was thrilled! But I was also in the middle of a brutal, exhausting quarter at work [635, 663]. My inbox was overflowing, my slack was screaming, and my brain felt like mush [347, 617]. I was staring at my computer, thinking about this massive daily struggle we are all experiencing: *How on earth do we survive this hyper-speed, AI-driven tech landscape?* [157, 482] 
 
-And then, I did what any modern, tired tech worker does when they hit a wall. I opened up a raw scratchpad, brain-dumped a messy, chaotic list of my thoughts, and fed it into ChatGPT [7, 347]. I typed: *'Translate this mess into a professional, high-concept keynote paper.'* [10, 157, 347]
+And then, I did what any modern, tired tech worker does when they hit a wall. I opened up a raw scratchpad, brain-dumped a messy, chaotic list of my thoughts, and fed it into Gemini [7, 347]. I typed: *'Translate this mess into a professional, high-concept keynote paper.'* [10, 157, 347]
 
 In exactly 3.2 seconds, it spit out this incredibly fancy title: **'Design Un-automated: Reclaiming the Soul of Design'** [157, 381]. It wrote the outline, polished the language, and made me look like an absolute genius [347, 375]. 
 
@@ -93,7 +93,7 @@ Their findings should make every creator in this room pause [228, 267]. Yes, usi
 
 Why does this happen? Because generative AI models are trained on the existing internet [72, 234]. They are built on statistical probability [151]. Every time you ask an AI for an idea, its algorithm has a gravitational pull toward the statistical middle [151, 504]. It gives you the most predictable, average response [151, 392]. 
 
-If fifty different designers in this room ask ChatGPT or Claude to design a landing page for a new payment app, the AI will pull them all into the exact same semantic bucket [234, 503]. 
+If fifty different designers in this room ask Gemini or Claude to design a landing page for a new payment app, the AI will pull them all into the exact same semantic bucket [234, 503]. 
 
 We aren't failing because our designs are bad [506]. We are failing because they are **indistinguishable** [151, 503]. In a world of infinite, automated options, sameness is the new noise [145, 151]. If you look just like everyone else, you are irrelevant [152, 155]. And the cost of this autopilot lifestyle isn't just boring designs—it is cognitive rot [437, 657]."
 
@@ -173,7 +173,7 @@ These are high-friction, low-leverage tasks [158]. Automating them is a massive 
 
 But here is the line we must never cross: **We must never automate the outcome.** [16, 98]
 
-If you type a problem into ChatGPT, let it generate a wireframe, and directly hand that wireframe to engineering—you have automated the outcome [346, 347, 445]. You have let the average of the internet decide what your product should be [151]. You are no longer designing; you are just hosting a robot's opinion [347, 348].
+If you type a problem into Gemini, let it generate a wireframe, and directly hand that wireframe to engineering—you have automated the outcome [346, 347, 445]. You have let the average of the internet decide what your product should be [151]. You are no longer designing; you are just hosting a robot's opinion [347, 348].
 
 **Driving the outcome** means you treat AI as a provocative partner, not an executor [157]. It means you use your saved time to step out one click [546, 569]. 
 

@@ -35,10 +35,7 @@ export const Slide10_Roadmap: React.FC<SlideProps> = ({ step }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="inline-flex items-center gap-2 mb-3 text-[#E59A2F] text-xs uppercase font-mono tracking-widest font-semibold">
-              <Compass className="w-3.5 h-3.5" />
-              RECLAIMING THE WHEEL
-            </div>
+            
 
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-4">
               Three Rules <br />

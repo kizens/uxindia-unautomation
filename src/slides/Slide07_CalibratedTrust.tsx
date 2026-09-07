@@ -21,10 +21,7 @@ export const Slide07_CalibratedTrust: React.FC<SlideProps> = ({ step }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="inline-flex items-center gap-2 mb-3 text-[#3D7EA6] text-xs uppercase font-mono tracking-widest font-semibold">
-              <Gauge className="w-3.5 h-3.5" />
-              HUMAN CONTROL
-            </div>
+            
 
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-4">
               Calibrated <br />
