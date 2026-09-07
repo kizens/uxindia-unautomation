@@ -111,7 +111,7 @@ export const Slide07_CalibratedTrust: React.FC<SlideProps> = ({ step }) => {
                     exit={{ opacity: 0, y: -10 }}
                     className="text-sm md:text-base text-[#6BA8D1] font-mono border-l-2 border-[#3D7EA6] pl-3"
                   >
-                    Stage 1: Intent. Hyderabad to Leh. The machine aggregates fare matrixes in milliseconds, but cannot understand human stamina or altitude prep.
+                    Intent. Hyderabad to Leh. The machine aggregates fare matrixes in milliseconds, but cannot understand human stamina or altitude prep.
                   </motion.div>
                 )}
 
@@ -123,7 +123,7 @@ export const Slide07_CalibratedTrust: React.FC<SlideProps> = ({ step }) => {
                     exit={{ opacity: 0, y: -10 }}
                     className="text-sm md:text-base text-[#4ADE80] font-mono border-l-2 border-[#2E6F40] pl-3"
                   >
-                    Stage 2: Prediction. Delhi Layover. Replace confusing 88% math with plain language clarity: "Prices are currently low. Today is a great day to book."
+                    Prediction. Delhi Layover. Replace confusing 88% math with plain language clarity: "Prices are currently low. Today is a great day to book."
                   </motion.div>
                 )}
 
@@ -135,7 +135,7 @@ export const Slide07_CalibratedTrust: React.FC<SlideProps> = ({ step }) => {
                     exit={{ opacity: 0, y: -10 }}
                     className="text-sm md:text-base text-[#F5B041] font-mono border-l-2 border-[#E59A2F] pl-3"
                   >
-                    Stage 3: Choice. AI recommends a 2 AM Delhi connection to save ₹2,800, but hotel check-in is impossible. The human weighs the true cost.
+                    Choice. AI recommends a 2 AM Delhi connection to save ₹2,800, but hotel check-in is impossible. The human weighs the true cost.
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -211,7 +211,7 @@ export const Slide07_CalibratedTrust: React.FC<SlideProps> = ({ step }) => {
                           activeStage === 0 ? "fill-[#6BA8D1]" : "fill-[#8E8375]"
                         }`}
                       >
-                        01 • HYD Intent
+                        HYD Intent
                       </text>
                     </g>
 
@@ -240,7 +240,7 @@ export const Slide07_CalibratedTrust: React.FC<SlideProps> = ({ step }) => {
                           activeStage === 1 ? "fill-[#4ADE80]" : "fill-[#8E8375]"
                         }`}
                       >
-                        02 • DEL Layover
+                        DEL Layover
                       </text>
                     </g>
 
@@ -269,7 +269,7 @@ export const Slide07_CalibratedTrust: React.FC<SlideProps> = ({ step }) => {
                           activeStage === 2 ? "fill-[#F5B041]" : "fill-[#8E8375]"
                         }`}
                       >
-                        03 • LEH Decision
+                        LEH Decision
                       </text>
                     </g>
 
