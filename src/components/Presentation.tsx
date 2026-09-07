@@ -36,27 +36,9 @@ export const Presentation: React.FC = () => {
   const [direction, setDirection] = useState(1);
   const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isOverviewOpen, setIsOverviewOpen] = useState(false);
-  const [isFullscreen, setIsFullscreen] = useState(false);
-
-  // 30-minute keynote countdown / stopwatch timer
-  const [timerSeconds, setTimerSeconds] = useState(0);
-  const [isTimerRunning, setIsTimerRunning] = useState(true);
 
   const currentSlide = SLIDES_DATA[currentSlideIndex];
   const totalSteps = currentSlide.stepsCount;
-
-  // Timer ticker
-  useEffect(() => {
-    let interval: any = null;
-    if (isTimerRunning) {
-      interval = setInterval(() => {
-        setTimerSeconds(prev => prev + 1);
-      }, 1000);
-    }
-    return () => {
-      if (interval) clearInterval(interval);
-    };
-  }, [isTimerRunning]);
 
   // Advance Next (Beat or Slide)
   const next = useCallback(() => {
@@ -90,19 +72,9 @@ export const Presentation: React.FC = () => {
     }
   }, [currentSlideIndex]);
 
-  // Fullscreen toggle
-  const toggleFullscreen = useCallback(() => {
-    if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen().then(() => setIsFullscreen(true)).catch(() => {});
-    } else {
-      document.exitFullscreen().then(() => setIsFullscreen(false)).catch(() => {});
-    }
-  }, []);
-
   // Keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Don't intercept if an input is active
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
 
       switch (e.key) {
@@ -131,11 +103,6 @@ export const Presentation: React.FC = () => {
           if (isOverviewOpen) setIsOverviewOpen(false);
           if (isNotesOpen) setIsNotesOpen(false);
           break;
-        case 'f':
-        case 'F':
-          e.preventDefault();
-          toggleFullscreen();
-          break;
         case 'Home':
           e.preventDefault();
           goToSlide(0, 0);
@@ -151,7 +118,7 @@ export const Presentation: React.FC = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [next, prev, isOverviewOpen, isNotesOpen, toggleFullscreen, goToSlide]);
+  }, [next, prev, isOverviewOpen, isNotesOpen, goToSlide]);
 
   const CurrentSlideComponent = SLIDE_COMPONENTS[currentSlideIndex];
 
@@ -187,22 +154,13 @@ export const Presentation: React.FC = () => {
         isNotesOpen={isNotesOpen}
         onToggleOverview={() => setIsOverviewOpen(prev => !prev)}
         isOverviewOpen={isOverviewOpen}
-        isFullscreen={isFullscreen}
-        onToggleFullscreen={toggleFullscreen}
-        timerSeconds={timerSeconds}
-        isTimerRunning={isTimerRunning}
-        onToggleTimer={() => setIsTimerRunning(prev => !prev)}
       />
 
-      {/* Slide-out Presenter Notes Drawer */}
+      {/* Slide-out Presenter Notes Drawer (Only Speaker Notes) */}
       <PresenterNotesDrawer
         isOpen={isNotesOpen}
         onClose={() => setIsNotesOpen(false)}
         slide={currentSlide}
-        timerSeconds={timerSeconds}
-        isTimerRunning={isTimerRunning}
-        onToggleTimer={() => setIsTimerRunning(prev => !prev)}
-        onResetTimer={() => setTimerSeconds(0)}
       />
 
       {/* Slide Overview Grid Modal */}
