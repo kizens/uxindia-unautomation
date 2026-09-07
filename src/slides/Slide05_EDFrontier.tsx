@@ -1,23 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { RetroIllustrationFrame } from '../components/RetroIllustrationFrame';
-import { Wrench, Compass, Bot, User, Sparkles } from 'lucide-react';
+import { Wrench, Compass, Sparkles } from 'lucide-react';
 
 interface SlideProps {
   step: number;
 }
 
 export const Slide05_EDFrontier: React.FC<SlideProps> = ({ step }) => {
-  // Allow manual toggle or synchronize with clicker step
-  const [selectedDomain, setSelectedDomain] = useState<'E' | 'D' | null>(null);
-
-  // Active domain is determined by user selection or current step
-  // Step 1: E, Step 2: D, Step 0: Neutral overview
-  const currentDomain = selectedDomain || (step === 1 ? 'E' : step === 2 ? 'D' : null);
-
-  // Radar chart dimensions
-  const aiPolygonPoints = "150,42 220,84 220,165 150,146 142,129 139,119";
-  const humanPolygonPoints = "150,104 180,111 172,138 150,206 76,168 80,84";
 
   return (
     <div className="relative w-full h-full flex flex-col justify-center items-center px-6 md:px-12 py-6 overflow-hidden bg-[#12100E]">
@@ -95,113 +85,80 @@ export const Slide05_EDFrontier: React.FC<SlideProps> = ({ step }) => {
           <RetroIllustrationFrame variant="dark">
             <div className="space-y-3.5">
               {/* 1. Radar Chart Container */}
-              <div className="p-3 rounded-xl bg-[#14100D] border border-[#352B22] relative overflow-hidden flex flex-col items-center">
-                {/* Header Strip with Interactive Domain Toggles */}
-                <div className="w-full flex items-center justify-between text-[11px] font-mono mb-2 px-1">
-                  <button
-                    onClick={() => setSelectedDomain(currentDomain === 'E' ? null : 'E')}
-                    className={`flex items-center gap-1.5 px-2 py-0.5 rounded border transition-all ${
-                      currentDomain === 'E' || step === 1
-                        ? 'bg-[#3D7EA6]/25 border-[#6BA8D1] text-[#6BA8D1] font-bold'
-                        : 'border-[#332A22] text-[#8E8375] hover:text-[#D0C5B4]'
-                    }`}
-                  >
-                    <Bot className="w-3 h-3" />
-                    <span>Execution (E)</span>
-                    <span className="text-[9px] px-1 rounded bg-[#6BA8D1]/20">AI</span>
-                  </button>
-
-                  <span className="text-[10px] text-[#8E8375] uppercase tracking-wider font-mono">
-                    Capability Radar
-                  </span>
-
-                  <button
-                    onClick={() => setSelectedDomain(currentDomain === 'D' ? null : 'D')}
-                    className={`flex items-center gap-1.5 px-2 py-0.5 rounded border transition-all ${
-                      currentDomain === 'D' || step === 2
-                        ? 'bg-[#E59A2F]/25 border-[#F5B041] text-[#F5B041] font-bold'
-                        : 'border-[#332A22] text-[#8E8375] hover:text-[#D0C5B4]'
-                    }`}
-                  >
-                    <User className="w-3 h-3" />
-                    <span>Discernment (D)</span>
-                    <span className="text-[9px] px-1 rounded bg-[#F5B041]/20">Human</span>
-                  </button>
-                </div>
-
-                {/* SVG Radar Chart */}
-                <div className="relative w-full max-w-[340px] h-[240px] flex items-center justify-center">
-                  <svg className="w-full h-full" viewBox="0 0 300 250">
+              <div className="p-4 rounded-xl bg-[#14100D] border border-[#352B22] relative overflow-hidden flex flex-col items-center justify-center">
+                {/* SVG Radar Chart (Enlarged) */}
+                <div className="relative w-full max-w-[440px] h-[290px] flex items-center justify-center">
+                  <svg className="w-full h-full" viewBox="0 0 360 270">
                     {/* Concentric Grid Hexagons */}
-                    <polygon points="150,40 224,82.5 224,167.5 150,210 76,167.5 76,82.5" fill="none" stroke="#2D241C" strokeWidth="1" />
-                    <polygon points="150,61 205,93 205,157 150,189 95,157 95,93" fill="none" stroke="#2D241C" strokeWidth="1" strokeDasharray="2 2" />
-                    <polygon points="150,82.5 187,104 187,146 150,167.5 113,146 113,104" fill="none" stroke="#2D241C" strokeWidth="1" />
-                    <polygon points="150,104 168,114 168,136 150,146 132,136 132,114" fill="none" stroke="#2D241C" strokeWidth="1" strokeDasharray="2 2" />
+                    <polygon points="180,40 262,87.5 262,182.5 180,230 98,182.5 98,87.5" fill="none" stroke="#2D241C" strokeWidth="1" />
+                    <polygon points="180,64 242,99 242,171 180,206 118,171 118,99" fill="none" stroke="#2D241C" strokeWidth="1" strokeDasharray="2 2" />
+                    <polygon points="180,88 221,111 221,159 180,183 139,159 139,111" fill="none" stroke="#2D241C" strokeWidth="1" />
+                    <polygon points="180,111 201,123 201,147 180,159 159,147 159,123" fill="none" stroke="#2D241C" strokeWidth="1" strokeDasharray="2 2" />
 
                     {/* Radiating Axis Spoke Lines */}
-                    <line x1="150" y1="125" x2="150" y2="40" stroke="#3A2F25" strokeWidth="1" />
-                    <line x1="150" y1="125" x2="224" y2="82.5" stroke="#3A2F25" strokeWidth="1" />
-                    <line x1="150" y1="125" x2="224" y2="167.5" stroke="#3A2F25" strokeWidth="1" />
-                    <line x1="150" y1="125" x2="150" y2="210" stroke="#3A2F25" strokeWidth="1" />
-                    <line x1="150" y1="125" x2="76" y2="167.5" stroke="#3A2F25" strokeWidth="1" />
-                    <line x1="150" y1="125" x2="76" y2="82.5" stroke="#3A2F25" strokeWidth="1" />
+                    <line x1="180" y1="135" x2="180" y2="40" stroke="#3A2F25" strokeWidth="1" />
+                    <line x1="180" y1="135" x2="262" y2="87.5" stroke="#3A2F25" strokeWidth="1" />
+                    <line x1="180" y1="135" x2="262" y2="182.5" stroke="#3A2F25" strokeWidth="1" />
+                    <line x1="180" y1="135" x2="180" y2="230" stroke="#3A2F25" strokeWidth="1" />
+                    <line x1="180" y1="135" x2="98" y2="182.5" stroke="#3A2F25" strokeWidth="1" />
+                    <line x1="180" y1="135" x2="98" y2="87.5" stroke="#3A2F25" strokeWidth="1" />
 
                     {/* 6 Dimension Labels around Perimeter */}
-                    <text x="150" y="28" textAnchor="middle" className="text-[9px] font-mono fill-[#A89F91]">
+                    <text x="180" y="26" textAnchor="middle" className="text-[10px] font-mono fill-[#A89F91]">
                       VELOCITY (50x)
                     </text>
-                    <text x="232" y="80" textAnchor="start" className="text-[9px] font-mono fill-[#A89F91]">
+                    <text x="272" y="90" textAnchor="start" className="text-[10px] font-mono fill-[#A89F91]">
                       SPECS & TOKENS
                     </text>
-                    <text x="232" y="174" textAnchor="start" className="text-[9px] font-mono fill-[#A89F91]">
+                    <text x="272" y="186" textAnchor="start" className="text-[10px] font-mono fill-[#A89F91]">
                       PERMUTATIONS
                     </text>
-                    <text x="150" y="228" textAnchor="middle" className="text-[9px] font-mono fill-[#A89F91]">
+                    <text x="180" y="250" textAnchor="middle" className="text-[10px] font-mono fill-[#A89F91]">
                       TASTE & CONVICTION
                     </text>
-                    <text x="68" y="174" textAnchor="end" className="text-[9px] font-mono fill-[#A89F91]">
+                    <text x="88" y="186" textAnchor="end" className="text-[10px] font-mono fill-[#A89F91]">
                       HUMAN EMPATHY
                     </text>
-                    <text x="68" y="80" textAnchor="end" className="text-[9px] font-mono fill-[#A89F91]">
+                    <text x="88" y="90" textAnchor="end" className="text-[10px] font-mono fill-[#A89F91]">
                       CULTURAL CONTEXT
                     </text>
 
-                    {/* Layer 1: AI Execution Polygon (Shown on Step 1 or Step 2 or manual toggle) */}
-                    {(step >= 1 || currentDomain === 'E') && (
+                    {/* Layer 1: AI Execution Polygon (Shown on Step >= 1) */}
+                    {step >= 1 && (
                       <motion.g
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5, ease: 'easeOut' }}
                       >
                         <polygon
-                          points={aiPolygonPoints}
+                          points="180,42 255,91 255,179 180,149 172,140 168,128"
                           fill="rgba(61, 126, 166, 0.28)"
                           stroke="#6BA8D1"
                           strokeWidth="2"
                         />
                         {/* Data vertices */}
-                        {[[150, 42], [220, 84], [220, 165], [150, 146], [142, 129], [139, 119]].map(([x, y], i) => (
-                          <circle key={i} cx={x} cy={y} r="3" fill="#6BA8D1" stroke="#12100E" strokeWidth="1" />
+                        {[[180, 42], [255, 91], [255, 179], [180, 149], [172, 140], [168, 128]].map(([x, y], i) => (
+                          <circle key={i} cx={x} cy={y} r="3.5" fill="#6BA8D1" stroke="#12100E" strokeWidth="1" />
                         ))}
                       </motion.g>
                     )}
 
-                    {/* Layer 2: Human Discernment Polygon (Shown on Step 2 or manual toggle) */}
-                    {(step >= 2 || currentDomain === 'D') && (
+                    {/* Layer 2: Human Discernment Polygon (Shown on Step >= 2) */}
+                    {step >= 2 && (
                       <motion.g
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5, ease: 'easeOut' }}
                       >
                         <polygon
-                          points={humanPolygonPoints}
+                          points="180,111 206,120 203,148 180,228 102,180 105,91"
                           fill="rgba(229, 154, 47, 0.30)"
                           stroke="#F5B041"
                           strokeWidth="2"
                         />
                         {/* Data vertices */}
-                        {[[150, 104], [180, 111], [172, 138], [150, 206], [76, 168], [80, 84]].map(([x, y], i) => (
-                          <circle key={i} cx={x} cy={y} r="3" fill="#F5B041" stroke="#12100E" strokeWidth="1" />
+                        {[[180, 111], [206, 120], [203, 148], [180, 228], [102, 180], [105, 91]].map(([x, y], i) => (
+                          <circle key={i} cx={x} cy={y} r="3.5" fill="#F5B041" stroke="#12100E" strokeWidth="1" />
                         ))}
                       </motion.g>
                     )}
@@ -210,10 +167,10 @@ export const Slide05_EDFrontier: React.FC<SlideProps> = ({ step }) => {
               </div>
 
               {/* 2. One-by-One Progressive Cards (First Execution, Then Discernment) */}
-              <div className="min-h-[145px] flex items-center">
+              <div className="min-h-[110px] flex items-center">
                 <AnimatePresence mode="wait">
                   {/* Step 0: Overview State */}
-                  {step === 0 && !currentDomain && (
+                  {step === 0 && (
                     <motion.div
                       key="step0-card"
                       initial={{ opacity: 0 }}
@@ -230,8 +187,8 @@ export const Slide05_EDFrontier: React.FC<SlideProps> = ({ step }) => {
                     </motion.div>
                   )}
 
-                  {/* Step 1 or E domain: EXECUTION (E) Shown First */}
-                  {((step === 1 && currentDomain !== 'D') || currentDomain === 'E') && (
+                  {/* Step 1: EXECUTION (E) Shown First */}
+                  {step === 1 && (
                     <motion.div
                       key="execution-card"
                       initial={{ opacity: 0, y: 12 }}
@@ -271,15 +228,11 @@ export const Slide05_EDFrontier: React.FC<SlideProps> = ({ step }) => {
                           Translation & tokens
                         </div>
                       </div>
-
-                      <div className="p-2 rounded bg-[#091017] border border-[#1D2F40] text-center text-[11px] font-mono text-[#6BA8D1]">
-                        Guideline: Competing on cursor speed is a losing game. Let the machine execute.
-                      </div>
                     </motion.div>
                   )}
 
-                  {/* Step 2 or D domain: DISCERNMENT (D) Shown Next */}
-                  {((step === 2 && currentDomain !== 'E') || currentDomain === 'D') && (
+                  {/* Step 2: DISCERNMENT (D) Shown Next */}
+                  {step === 2 && (
                     <motion.div
                       key="discernment-card"
                       initial={{ opacity: 0, y: 12 }}
@@ -319,10 +272,6 @@ export const Slide05_EDFrontier: React.FC<SlideProps> = ({ step }) => {
                         <div className="p-2 rounded bg-[#140E08] border border-[#3A2B1D] text-center">
                           The "Why" of design
                         </div>
-                      </div>
-
-                      <div className="p-2 rounded bg-[#120B06] border border-[#352618] text-center text-[11px] font-mono text-[#F5B041]">
-                        Guideline: The machine has no body and never felt joy or grief. Protect your discernment.
                       </div>
                     </motion.div>
                   )}

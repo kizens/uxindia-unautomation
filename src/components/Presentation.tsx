@@ -33,11 +33,35 @@ const SLIDE_COMPONENTS = [
 ];
 
 export const Presentation: React.FC = () => {
-  const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
-  const [currentStep, setCurrentStep] = useState(0);
+  const [currentSlideIndex, setCurrentSlideIndex] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    const s = params.get('slide');
+    if (s !== null) {
+      const idx = parseInt(s, 10);
+      if (!isNaN(idx) && idx >= 0 && idx < SLIDE_COMPONENTS.length) return idx;
+    }
+    return 0;
+  });
+  const [currentStep, setCurrentStep] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    const st = params.get('step');
+    if (st !== null) {
+      const sidx = parseInt(st, 10);
+      if (!isNaN(sidx) && sidx >= 0) return sidx;
+    }
+    return 0;
+  });
   const [direction, setDirection] = useState(1);
   const [isNotesOpen, setIsNotesOpen] = useState(false);
   const [isOverviewOpen, setIsOverviewOpen] = useState(false);
+
+  // Sync state to URL for bookmarking and refresh preservation
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    params.set('slide', currentSlideIndex.toString());
+    params.set('step', currentStep.toString());
+    window.history.replaceState(null, '', `?${params.toString()}`);
+  }, [currentSlideIndex, currentStep]);
 
   const currentSlide = SLIDES_DATA[currentSlideIndex];
   const totalSteps = currentSlide.stepsCount;
