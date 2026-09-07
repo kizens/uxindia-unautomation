@@ -1,8 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { RetroIllustrationFrame } from '../components/RetroIllustrationFrame';
 import { MapPin, Code2, Heart } from 'lucide-react';
-import sujitAvatarImg from '../assets/sujit_avatar.jpg';
+import { LegoBlueprintFrame } from '../components/LegoBlueprintFrame';
 
 interface SlideProps {
   step: number;
@@ -28,7 +27,7 @@ export const Slide02_SpeakerIntro: React.FC<SlideProps> = ({ step }) => {
               <span>HYDERABAD, INDIA</span>
             </div>
 
-            {/* Headline: Sujit Pradhan (No Kumar) */}
+            {/* Headline: Sujit Pradhan */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-4">
               Sujit <br />
               <span className="text-[#E59A2F] italic">Pradhan.</span>
@@ -107,17 +106,9 @@ export const Slide02_SpeakerIntro: React.FC<SlideProps> = ({ step }) => {
           </motion.div>
         </div>
 
-        {/* Right Column: Stylized Avatar (Clean without bottom overlay strip) */}
+        {/* Right Column: Stylized Lego Blueprint Card */}
         <div className="lg:col-span-5 flex flex-col justify-center items-center">
-          <RetroIllustrationFrame variant="dark" className="w-full max-w-sm">
-            <div className="relative rounded-xl overflow-hidden border border-[#3D352E] shadow-2xl aspect-square">
-              <img
-                src={sujitAvatarImg}
-                alt="Sujit Pradhan"
-                className="w-full h-full object-cover filter contrast-105"
-              />
-            </div>
-          </RetroIllustrationFrame>
+          <LegoBlueprintFrame />
         </div>
       </div>
     </div>
