@@ -6,63 +6,67 @@ interface SlideProps {
   step: number;
 }
 
-// 48 Deterministic Scatter Points for Collective Variance vs Individual Quality
+// 52 Deterministic Scatter Points for Collective Variance vs Individual Quality
 const SCATTER_POINTS = [
-  { id: 1, baseX: 75, baseY: 65 },
-  { id: 2, baseX: 90, baseY: 85 },
-  { id: 3, baseX: 110, baseY: 45 },
-  { id: 4, baseX: 125, baseY: 110 },
-  { id: 5, baseX: 140, baseY: 55 },
-  { id: 6, baseX: 155, baseY: 95 },
-  { id: 7, baseX: 170, baseY: 40 },
-  { id: 8, baseX: 185, baseY: 75 },
-  { id: 9, baseX: 200, baseY: 120 },
-  { id: 10, baseX: 215, baseY: 50 },
-  { id: 11, baseX: 225, baseY: 80 },
-  { id: 12, baseX: 235, baseY: 35 },
-  { id: 13, baseX: 245, baseY: 60 },
-  { id: 14, baseX: 255, baseY: 105 },
-  { id: 15, baseX: 265, baseY: 45 },
-  { id: 16, baseX: 280, baseY: 90 },
-  { id: 17, baseX: 295, baseY: 55 },
-  { id: 18, baseX: 310, baseY: 115 },
-  { id: 19, baseX: 325, baseY: 40 },
-  { id: 20, baseX: 340, baseY: 70 },
-  { id: 21, baseX: 355, baseY: 100 },
-  { id: 22, baseX: 370, baseY: 50 },
-  { id: 23, baseX: 390, baseY: 80 },
-  { id: 24, baseX: 405, baseY: 60 },
-  { id: 25, baseX: 100, baseY: 95 },
-  { id: 26, baseX: 130, baseY: 70 },
-  { id: 27, baseX: 160, baseY: 110 },
-  { id: 28, baseX: 190, baseY: 45 },
-  { id: 29, baseX: 220, baseY: 95 },
-  { id: 30, baseX: 250, baseY: 30 },
-  { id: 31, baseX: 270, baseY: 75 },
-  { id: 32, baseX: 300, baseY: 105 },
-  { id: 33, baseX: 330, baseY: 60 },
-  { id: 34, baseX: 360, baseY: 85 },
-  { id: 35, baseX: 380, baseY: 110 },
-  { id: 36, baseX: 210, baseY: 65 },
-  { id: 37, baseX: 230, baseY: 115 },
-  { id: 38, baseX: 240, baseY: 45 },
-  { id: 39, baseX: 260, baseY: 85 },
-  { id: 40, baseX: 285, baseY: 35 },
-  { id: 41, baseX: 145, baseY: 80 },
-  { id: 42, baseX: 175, baseY: 60 },
-  { id: 43, baseX: 315, baseY: 85 },
-  { id: 44, baseX: 345, baseY: 50 },
-  { id: 45, baseX: 238, baseY: 25 },
-  { id: 46, baseX: 242, baseY: 70 },
-  { id: 47, baseX: 236, baseY: 90 },
-  { id: 48, baseX: 244, baseY: 110 },
+  { id: 1, baseX: 70, baseY: 110 },
+  { id: 2, baseX: 95, baseY: 155 },
+  { id: 3, baseX: 120, baseY: 75 },
+  { id: 4, baseX: 140, baseY: 190 },
+  { id: 5, baseX: 160, baseY: 90 },
+  { id: 6, baseX: 180, baseY: 160 },
+  { id: 7, baseX: 195, baseY: 65 },
+  { id: 8, baseX: 215, baseY: 125 },
+  { id: 9, baseX: 230, baseY: 195 },
+  { id: 10, baseX: 245, baseY: 85 },
+  { id: 11, baseX: 260, baseY: 140 },
+  { id: 12, baseX: 275, baseY: 50 },
+  { id: 13, baseX: 285, baseY: 100 },
+  { id: 14, baseX: 295, baseY: 175 },
+  { id: 15, baseX: 305, baseY: 70 },
+  { id: 16, baseX: 320, baseY: 150 },
+  { id: 17, baseX: 340, baseY: 90 },
+  { id: 18, baseX: 360, baseY: 190 },
+  { id: 19, baseX: 380, baseY: 65 },
+  { id: 20, baseX: 400, baseY: 120 },
+  { id: 21, baseX: 420, baseY: 165 },
+  { id: 22, baseX: 440, baseY: 80 },
+  { id: 23, baseX: 465, baseY: 135 },
+  { id: 24, baseX: 490, baseY: 100 },
+  { id: 25, baseX: 110, baseY: 165 },
+  { id: 26, baseX: 150, baseY: 120 },
+  { id: 27, baseX: 185, baseY: 180 },
+  { id: 28, baseX: 220, baseY: 75 },
+  { id: 29, baseX: 255, baseY: 160 },
+  { id: 30, baseX: 280, baseY: 40 },
+  { id: 31, baseX: 310, baseY: 125 },
+  { id: 32, baseX: 350, baseY: 170 },
+  { id: 33, baseX: 390, baseY: 105 },
+  { id: 34, baseX: 430, baseY: 140 },
+  { id: 35, baseX: 470, baseY: 180 },
+  { id: 36, baseX: 235, baseY: 110 },
+  { id: 37, baseX: 265, baseY: 190 },
+  { id: 38, baseX: 278, baseY: 70 },
+  { id: 39, baseX: 298, baseY: 145 },
+  { id: 40, baseX: 325, baseY: 60 },
+  { id: 41, baseX: 165, baseY: 140 },
+  { id: 42, baseX: 205, baseY: 100 },
+  { id: 43, baseX: 365, baseY: 140 },
+  { id: 44, baseX: 405, baseY: 85 },
+  { id: 45, baseX: 278, baseY: 35 },
+  { id: 46, baseX: 282, baseY: 115 },
+  { id: 47, baseX: 276, baseY: 150 },
+  { id: 48, baseX: 284, baseY: 185 },
+  { id: 49, baseX: 279, baseY: 60 },
+  { id: 50, baseX: 281, baseY: 90 },
+  { id: 51, baseX: 277, baseY: 130 },
+  { id: 52, baseX: 283, baseY: 170 },
 ];
 
 export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step }) => {
   // Pre-AI: Broad Gaussian bell curve across wide variance
-  const preAiPath = "M 50,145 C 130,145 170,60 240,60 C 310,60 350,145 430,145";
+  const preAiPath = "M 40,230 C 140,230 190,95 280,95 C 370,95 420,230 520,230";
   // Post-AI: Sharp, narrow needle spike centered on statistical mean
-  const postAiPath = "M 50,145 L 212,145 C 228,145 235,18 240,18 C 245,18 252,145 268,145 L 430,145";
+  const postAiPath = "M 40,230 L 248,230 C 265,230 274,22 280,22 C 286,22 295,230 312,230 L 520,230";
 
   return (
     <div className="relative w-full h-full flex flex-col justify-center items-center px-6 md:px-12 py-6 overflow-hidden bg-[#12100E]">
@@ -129,51 +133,55 @@ export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step })
           </motion.div>
         </div>
 
-        {/* Right Column: Interactive Scatter / Distribution Graph + Tilburg Data + 12 Apps */}
+        {/* Right Column: Expansive Interactive Distribution Graph + Tilburg Data */}
         <div className="lg:col-span-7 flex flex-col justify-center">
           <RetroIllustrationFrame variant="dark">
-            <div className="space-y-3.5">
-              {/* 1. Interactive Distribution Graph (Pre-AI vs Post-AI Morph) */}
-              <div className="p-3.5 rounded-lg bg-[#151210] border border-[#38302A] relative overflow-hidden">
-                <div className="flex items-center justify-between text-[11px] font-mono mb-1.5">
-                  <span className="text-[#A89F91]">
+            <div className="space-y-4">
+              {/* 1. Large Expansive Distribution Graph (Pre-AI vs Post-AI Morph) */}
+              <div className="p-4 rounded-xl bg-[#151210] border border-[#38302A] relative overflow-hidden">
+                <div className="flex items-center justify-between text-xs font-mono mb-2">
+                  <span className="text-[#A89F91] uppercase tracking-wider">
                     DISTRIBUTION OF CREATIVE IDEAS
                   </span>
                   <span className={step >= 1 ? "text-[#FF7360] font-bold" : "text-[#E59A2F]"}>
-                    {step === 0 ? "STATE: PRE-AI BASELINE" : "STATE: POST-AI STATISTICAL COLLAPSE"}
+                    {step === 0 ? "PRE-AI: BROAD VARIANCE" : "POST-AI: STATISTICAL MEAN COLLAPSE"}
                   </span>
                 </div>
 
-                <div className="relative w-full h-36">
-                  <svg className="w-full h-full" viewBox="0 0 480 160" fill="none">
-                    {/* Grid Background Lines */}
-                    <line x1="40" y1="30" x2="440" y2="30" stroke="#251E1A" strokeWidth="0.8" strokeDasharray="3 3" />
-                    <line x1="40" y1="65" x2="440" y2="65" stroke="#251E1A" strokeWidth="0.8" strokeDasharray="3 3" />
-                    <line x1="40" y1="105" x2="440" y2="105" stroke="#251E1A" strokeWidth="0.8" strokeDasharray="3 3" />
-                    <line x1="40" y1="145" x2="440" y2="145" stroke="#38302A" strokeWidth="1" />
+                <div className="relative w-full h-60 sm:h-64 lg:h-72">
+                  <svg className="w-full h-full" viewBox="0 0 560 260" fill="none">
+                    {/* Horizontal Guide Lines */}
+                    <line x1="40" y1="50" x2="520" y2="50" stroke="#251E1A" strokeWidth="0.8" strokeDasharray="4 4" />
+                    <line x1="40" y1="100" x2="520" y2="100" stroke="#251E1A" strokeWidth="0.8" strokeDasharray="4 4" />
+                    <line x1="40" y1="150" x2="520" y2="150" stroke="#251E1A" strokeWidth="0.8" strokeDasharray="4 4" />
+                    <line x1="40" y1="190" x2="520" y2="190" stroke="#251E1A" strokeWidth="0.8" strokeDasharray="4 4" />
+                    <line x1="40" y1="230" x2="520" y2="230" stroke="#38302A" strokeWidth="1.2" />
                     
                     {/* Y-Axis Label: Individual Quality */}
-                    <text x="14" y="24" fill="#7E7264" fontSize="8" fontFamily="monospace" textAnchor="start">High</text>
-                    <text x="14" y="145" fill="#7E7264" fontSize="8" fontFamily="monospace" textAnchor="start">Low</text>
-                    <text x="12" y="85" fill="#A89F91" fontSize="9" fontFamily="monospace" transform="rotate(-90 12 85)" textAnchor="middle">
+                    <text x="14" y="32" fill="#7E7264" fontSize="9" fontFamily="monospace" textAnchor="start">High</text>
+                    <text x="14" y="230" fill="#7E7264" fontSize="9" fontFamily="monospace" textAnchor="start">Low</text>
+                    <text x="12" y="130" fill="#A89F91" fontSize="10" fontFamily="monospace" transform="rotate(-90 12 130)" textAnchor="middle">
                       Individual Quality
                     </text>
 
                     {/* Statistical Mean Center Axis Line */}
-                    <line x1="240" y1="15" x2="240" y2="145" stroke="#E59A2F" strokeWidth="0.9" strokeDasharray="4 4" opacity="0.4" />
+                    <line x1="280" y1="20" x2="280" y2="230" stroke="#E59A2F" strokeWidth="1" strokeDasharray="5 5" opacity="0.4" />
+                    <text x="280" y="14" fill="#E59A2F" fontSize="8.5" fontFamily="monospace" textAnchor="middle" opacity="0.8">
+                      STATISTICAL MEAN
+                    </text>
 
                     {/* Morphing Distribution Curve Area */}
                     <motion.path
                       d={step >= 1 ? postAiPath : preAiPath}
-                      fill={step >= 1 ? "rgba(200, 62, 45, 0.18)" : "rgba(229, 154, 47, 0.12)"}
+                      fill={step >= 1 ? "rgba(200, 62, 45, 0.2)" : "rgba(229, 154, 47, 0.12)"}
                       stroke={step >= 1 ? "#FF7360" : "#E59A2F"}
-                      strokeWidth={step >= 1 ? "2.2" : "1.8"}
+                      strokeWidth={step >= 1 ? "2.5" : "2"}
                       transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
                     />
 
                     {/* Dynamic Scatter Points (Condensing from wide diversity into narrow column) */}
                     {SCATTER_POINTS.map((pt) => {
-                      const targetX = step >= 1 ? 240 + (pt.baseX - 240) * 0.13 : pt.baseX;
+                      const targetX = step >= 1 ? 280 + (pt.baseX - 280) * 0.11 : pt.baseX;
                       const dotColor = step >= 1 ? "#FFA499" : "#C7BAA7";
                       return (
                         <motion.circle
@@ -183,17 +191,19 @@ export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step })
                             cy: pt.baseY,
                             opacity: step >= 1 ? 0.95 : 0.65,
                           }}
-                          transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1], delay: pt.id * 0.004 }}
-                          r={step >= 1 ? "2.2" : "2"}
+                          transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1], delay: pt.id * 0.003 }}
+                          r={step >= 1 ? "2.4" : "2.2"}
                           fill={dotColor}
                         />
                       );
                     })}
 
-                    {/* X-Axis Label: Collective Variance (Diversity of Meaning) */}
-                    <text x="240" y="157" fill="#A89F91" fontSize="9" fontFamily="monospace" textAnchor="middle">
+                    {/* X-Axis Label: Collective Variance */}
+                    <text x="280" y="250" fill="#A89F91" fontSize="10" fontFamily="monospace" textAnchor="middle">
                       Collective Variance (Diversity of Meaning)
                     </text>
+                    <text x="50" y="246" fill="#7E7264" fontSize="8" fontFamily="monospace">← Broad Diversity</text>
+                    <text x="510" y="246" fill="#7E7264" fontSize="8" fontFamily="monospace" textAnchor="end">Broad Diversity →</text>
                   </svg>
 
                   {/* Post-AI Callout Annotation (Inspired by reference image) */}
@@ -203,11 +213,11 @@ export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step })
                         initial={{ opacity: 0, scale: 0.9, x: 20 }}
                         animate={{ opacity: 1, scale: 1, x: 0 }}
                         exit={{ opacity: 0 }}
-                        transition={{ duration: 0.5, delay: 0.3 }}
-                        className="absolute right-4 top-2 bg-[#261311] border border-[#C83E2D] rounded px-2 py-1 text-[10px] font-mono text-[#FF7360] flex items-center gap-1.5 shadow-lg"
+                        transition={{ duration: 0.5, delay: 0.25 }}
+                        className="absolute right-4 top-4 bg-[#261311] border border-[#C83E2D] rounded-md px-3 py-1.5 text-xs font-mono text-[#FF7360] flex items-center gap-2 shadow-xl"
                       >
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#FF7360] animate-ping" />
-                        <span>Collapse: Ideation & Design</span>
+                        <span className="w-2 h-2 rounded-full bg-[#FF7360] animate-ping" />
+                        <span>Most severe in Ideation & Design</span>
                       </motion.div>
                     )}
                   </AnimatePresence>
@@ -216,33 +226,33 @@ export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step })
 
               {/* 2. Tilburg Study (2026) Card with Deactivated vs Active States */}
               <div 
-                className={`p-3 rounded-lg transition-colors duration-500 ${
+                className={`p-4 rounded-xl transition-all duration-500 ${
                   step >= 1 
                     ? 'bg-[#181311] border border-[#C83E2D]/50 shadow-md' 
                     : 'bg-[#151210] border border-[#2D241E] opacity-75'
                 }`}
               >
-                <div className="flex items-center justify-between text-xs font-mono mb-2">
+                <div className="flex items-center justify-between text-xs font-mono mb-2.5">
                   <span className={step >= 1 ? "text-[#FDFBF7] font-bold" : "text-[#7E7264]"}>
-                    TILBURG STUDY (2026)
+                    TILBURG STUDY (2026) META-ANALYSIS
                   </span>
                   <span className={step >= 1 ? "text-[#34D399] font-bold" : "text-[#7E7264]"}>
-                    {step >= 1 ? "ACTIVE FINDINGS" : "BASELINE (INACTIVE)"}
+                    {step >= 1 ? "EMPIRICAL FINDINGS ACTIVE" : "BASELINE (INACTIVE)"}
                   </span>
                 </div>
 
-                <div className="space-y-2">
+                <div className="space-y-3">
                   {/* Metric 1: Individual Polish */}
-                  <div className="space-y-1">
+                  <div className="space-y-1.5">
                     <div className="flex justify-between text-xs font-mono">
                       <span className={step >= 1 ? "text-[#D5C9B8]" : "text-[#7E7264]"}>
-                        Individual Polish
+                        Individual Polish (Grammar, Formatting, Execution)
                       </span>
                       <span className={step >= 1 ? "text-[#34D399] font-bold" : "text-[#7E7264]"}>
                         {step >= 1 ? "+38% Cleanliness" : "0% (Baseline)"}
                       </span>
                     </div>
-                    <div className="h-2.5 w-full bg-[#201B17] rounded-full overflow-hidden border border-[#38302A]">
+                    <div className="h-3 w-full bg-[#201B17] rounded-full overflow-hidden border border-[#38302A]">
                       <motion.div
                         animate={{ width: step >= 1 ? '78%' : '0%' }}
                         transition={{ duration: 0.8, ease: 'easeOut' }}
@@ -252,16 +262,16 @@ export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step })
                   </div>
 
                   {/* Metric 2: Collective Design Diversity */}
-                  <div className="space-y-1">
+                  <div className="space-y-1.5">
                     <div className="flex justify-between text-xs font-mono">
                       <span className={step >= 1 ? "text-[#FDFBF7] font-bold" : "text-[#7E7264]"}>
-                        Collective Design Diversity
+                        Collective Design Diversity (Idea Variance)
                       </span>
                       <span className={step >= 1 ? "text-[#FF7360] font-bold" : "text-[#7E7264]"}>
                         {step >= 1 ? "-70% Collapse (d = 0.70)" : "100% (Normal Variance)"}
                       </span>
                     </div>
-                    <div className="h-2.5 w-full bg-[#201B17] rounded-full overflow-hidden border border-[#C83E2D]/40">
+                    <div className="h-3 w-full bg-[#201B17] rounded-full overflow-hidden border border-[#C83E2D]/40">
                       <motion.div
                         animate={{ width: step >= 1 ? '70%' : '0%' }}
                         transition={{ duration: 0.9, ease: 'easeOut' }}
@@ -269,36 +279,6 @@ export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step })
                       />
                     </div>
                   </div>
-                </div>
-              </div>
-
-              {/* 3. 12-App Homogenization Grid */}
-              <div className="p-2.5 rounded-lg bg-[#181412] border border-[#38302A]">
-                <div className="text-[11px] font-mono text-[#E59A2F] mb-1.5 flex items-center justify-between">
-                  <span>12 APPS ON AUTOPILOT</span>
-                  <span className={step === 2 ? "text-[#FF7360] font-bold" : "text-[#7E7264]"}>
-                    {step === 2 ? "Indistinguishable Clones" : "Statistical Convergence"}
-                  </span>
-                </div>
-                <div className="grid grid-cols-4 sm:grid-cols-6 gap-1.5">
-                  {[...Array(12)].map((_, i) => (
-                    <motion.div
-                      key={i}
-                      animate={{
-                        borderColor: step === 2 ? '#C83E2D' : '#38302A',
-                        backgroundColor: step === 2 ? '#221513' : '#1C1714',
-                        scale: step === 2 ? [1, 1.03, 1] : 1,
-                      }}
-                      transition={{ duration: 0.4, delay: i * 0.02 }}
-                      className="h-10 rounded border flex flex-col justify-between p-1"
-                    >
-                      <div className="w-3.5 h-1 rounded-full bg-[#3D7EA6]/70" />
-                      <div className="space-y-0.5">
-                        <div className="w-full h-1 rounded bg-[#38302A]" />
-                        <div className="w-2/3 h-0.5 rounded bg-[#2B2520]" />
-                      </div>
-                    </motion.div>
-                  ))}
                 </div>
               </div>
             </div>
