@@ -7,6 +7,7 @@ import { SlideOverviewModal } from './SlideOverviewModal';
 
 // Slide Components
 import { Slide01_Confession } from '../slides/Slide01_Confession';
+import { Slide02_SpeakerIntro } from '../slides/Slide02_SpeakerIntro';
 import { Slide02_AutopilotFlow } from '../slides/Slide02_AutopilotFlow';
 import { Slide03_CollectiveHomogenization } from '../slides/Slide03_CollectiveHomogenization';
 import { Slide04_ForkliftAtGym } from '../slides/Slide04_ForkliftAtGym';
@@ -19,6 +20,7 @@ import { Slide10_Roadmap } from '../slides/Slide10_Roadmap';
 
 const SLIDE_COMPONENTS = [
   Slide01_Confession,
+  Slide02_SpeakerIntro,
   Slide02_AutopilotFlow,
   Slide03_CollectiveHomogenization,
   Slide04_ForkliftAtGym,
