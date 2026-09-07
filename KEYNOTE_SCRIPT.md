@@ -37,9 +37,9 @@ A few months ago, I got this beautiful email inviting me to deliver a keynote he
 
 And then, I did what any modern, tired tech worker does when they hit a wall. I opened up a raw scratchpad, brain-dumped a messy, chaotic list of my thoughts, and fed it into Gemini [7, 347]. I typed: *'Translate this mess into a professional, high-concept keynote paper.'* [10, 157, 347]
 
-In exactly 3.2 seconds, it spit out this incredibly fancy title: **'Design Un-automated: Reclaiming the Soul of Design'** [157, 381]. It wrote the outline, polished the language, and made me look like an absolute genius [347, 375]. 
+In seconds, it spit out dozens of titles, polished outlines, and rich content [157, 381]. It wrote the structure, elevated the language, and made me look like an absolute genius [347, 375]. 
 
-And I'm not going to lie—for a second, I felt like a wizard [141, 372]. I thought, *'Wow, this is so easy! I've solved the presentation problem!'* [141, 353]
+And I am not going to lie, for a second, it felt like a superpower [141, 372]. I thought, *'Wow, this is so easy! I have solved the presentation problem!'* [141, 353]
 
 But then, a cold chill ran down my spine [142]. I realized that I had just fallen headfirst into the exact trap I wanted to warn you about [157, 346]. I had just outsourced my own reason [348]. I had turned myself into an intellectual tourist in my own talk, visiting these slides instead of inhabiting them [349]. 
 

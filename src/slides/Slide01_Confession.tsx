@@ -64,7 +64,7 @@ export const Slide01_Confession: React.FC<SlideProps> = ({ step }) => {
                 transition={{ duration: 0.35 }}
                 className="text-base sm:text-lg md:text-xl text-[#3D7EA6] font-mono"
               >
-                In 3.2 seconds, it gave me this title. For a second, I felt like a wizard.
+                In seconds, it handed me so many titles and content. It felt like a superpower.
               </motion.div>
             )}
 
