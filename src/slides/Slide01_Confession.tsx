@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import retroWorkspaceBg from '../assets/retro_workspace_bg.jpg';
 
 interface SlideProps {
   step: number;
@@ -8,9 +9,19 @@ interface SlideProps {
 export const Slide01_Confession: React.FC<SlideProps> = ({ step }) => {
   return (
     <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-12 overflow-hidden bg-[#12100E] text-center">
-      {/* Subtle ambient warm glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_70%_at_50%_40%,rgba(200,62,45,0.12),transparent)] pointer-events-none" />
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-[600px] h-48 rounded-full bg-[#E59A2F]/5 blur-3xl pointer-events-none" />
+      {/* 1. Underlying Retro Workspace Image with Depth-of-Field Blur */}
+      <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+        <img
+          src={retroWorkspaceBg}
+          alt="Retro Design Workspace"
+          className="w-full h-full object-cover object-center filter blur-[3px] scale-105 opacity-45"
+        />
+        {/* 2. Color Theme Blur Overlay (Warm espresso, terracotta & ochre ambient tint on top) */}
+        <div className="absolute inset-0 bg-[#12100E]/70 backdrop-blur-[6px]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_45%,rgba(200,62,45,0.22),transparent_70%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(229,154,47,0.18),transparent_60%)]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#12100E] via-transparent to-[#12100E]/80" />
+      </div>
 
       {/* Main Centered Content */}
       <motion.div
