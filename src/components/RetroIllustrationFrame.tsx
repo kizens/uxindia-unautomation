@@ -23,12 +23,6 @@ export const RetroIllustrationFrame: React.FC<Props> = ({
 
   return (
     <div className={`relative rounded-xl border-2 p-3 md:p-4 shadow-xl overflow-hidden transition-all duration-500 ${borderStyles[variant]} ${className}`}>
-      {/* Vintage corner tick marks */}
-      <div className="absolute top-1 left-1 w-2.5 h-2.5 border-t-2 border-l-2 border-current opacity-60" />
-      <div className="absolute top-1 right-1 w-2.5 h-2.5 border-t-2 border-r-2 border-current opacity-60" />
-      <div className="absolute bottom-1 left-1 w-2.5 h-2.5 border-b-2 border-l-2 border-current opacity-60" />
-      <div className="absolute bottom-1 right-1 w-2.5 h-2.5 border-b-2 border-r-2 border-current opacity-60" />
-
       {/* Header Stamp if label or badge provided */}
       {(label || badge) && (
         <div className="flex items-center justify-between mb-2.5 pb-2 border-b border-current/15 text-xs font-mono tracking-wider">
