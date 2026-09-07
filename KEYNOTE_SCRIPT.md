@@ -122,7 +122,7 @@ Dr. Doshi gave some incredible advice about this [370]. He said: when you face a
 * If the answer is **No**—if it's not core—use AI to *substitute* your effort [374]. (For example, I am not a professional tax accountant, so I let AI format my expenses) [348, 374].
 * But if the answer is **Yes**—if it is core to your craft, your thinking, your strategy—you must use AI only to *complement* your effort, never to replace it [374, 376]. 
 
-If you ask an AI to write your design strategy, draft your user insights, or generate your product concepts from scratch, you have just brought a forklift to the gym [375, 441]. The forklift is incredibly strong and fast [385]—but you aren't getting any stronger [353]. Your thinking muscles are rotting [657]. 
+If you ask an AI to write your design strategy, draft your user insights, or generate your product concepts from scratch, you have just brought a forklift to the gym [375, 441]. The forklift is incredibly strong and fast [385], but you are not getting any stronger [353]. Your critical thinking muscles begin to atrophy [657]. 
 
 Renting out your brain is the true threat [431, 437]. If we stop doing the hard work of thinking, we become entirely replaceable [437]. The biggest fear in tech isn't that AI will steal our jobs; it’s that we are voluntarily giving away the one thing that makes us un-replaceable: our active human judgment [146, 513, 662]."
 
@@ -149,7 +149,7 @@ But AI is utterly blind when it comes to **Discernment** [146, 525]. A machine d
 
 We must aggressively automate **Execution** [158] so that we can fiercely protect **Discernment** [145]. 
 
-When compilers were first introduced in the 1950s, programmers freaked out [104]. They thought their jobs were dead because the computer could automate the machine code [104]. But instead, they got rid of the boring drudgery and were freed up to think about higher-level software architecture [77, 104]. 
+When compilers were first introduced in the 1950s, programmers panicked [104]. They thought their roles were obsolete because the computer could automate machine code [104]. But instead, they eliminated repetitive drudgery and were freed up to architect higher-level software systems [77, 104]. 
 
 We must do the exact same thing in design [77]. Driving the outcome means letting the AI handle the pixels so we can spend our saved cognitive energy on the hard, human decisions [103, 145]."
 

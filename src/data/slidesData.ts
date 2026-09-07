@@ -142,7 +142,7 @@ export const SLIDES_DATA: SlideMeta[] = [
     talkingPoints: [
       "Execution (E) is the Making: mechanical, repetitive, naming layers, converting vectors, layout variations.",
       "Discernment (D) is the Choosing: taste, empathy, intuition, systems thinking, cultural context.",
-      "AI is a beast at Execution (50 screens in 3s). Competing on cursor speed is suicide.",
+      "AI is a beast at Execution (50 screens in 3s). Competing on cursor speed is a losing game.",
       "AI is utterly blind at Discernment: no body, no lived experience, never felt joy, shame, or grief.",
       "Historical parallel: 1950s compiler introduction freed programmers to architect systems."
     ],
