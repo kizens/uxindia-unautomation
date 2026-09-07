@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { RetroIllustrationFrame } from '../components/RetroIllustrationFrame';
-import { MapPin, Code2, Sparkles, Heart } from 'lucide-react';
+import { MapPin, Code2, Heart } from 'lucide-react';
 import sujitAvatarImg from '../assets/sujit_avatar.jpg';
 
 interface SlideProps {
@@ -22,21 +22,27 @@ export const Slide02_SpeakerIntro: React.FC<SlideProps> = ({ step }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="inline-flex items-center gap-2 mb-3 text-[#E59A2F] text-xs font-mono">
+            {/* Location Tag */}
+            <div className="inline-flex items-center gap-2 mb-3 text-[#A89F91] text-xs font-mono">
               <MapPin className="w-3.5 h-3.5 text-[#34D399]" />
               <span>HYDERABAD, INDIA</span>
-              <span className="text-[#554A40]">•</span>
-              <span className="text-[#34D399] font-bold">GOOGLE UX</span>
             </div>
 
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-3">
-              Sujit Kumar <br />
+            {/* Headline: Sujit Pradhan (No Kumar) */}
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-4">
+              Sujit <br />
               <span className="text-[#E59A2F] italic">Pradhan.</span>
             </h1>
 
-            <p className="text-lg sm:text-xl text-[#D0C5B4] font-light mb-6">
-              UX Designer at Google • Ex-Microsoft • Ex-Amazon
-            </p>
+            {/* Google Line + Ex-MSFT & AMZN Below */}
+            <div className="mb-6 space-y-1">
+              <p className="text-xl sm:text-2xl text-[#FDFBF7] font-medium">
+                UX Designer at Google
+              </p>
+              <p className="text-base sm:text-lg text-[#A89F91] font-light font-mono">
+                • Ex-Microsoft • Ex-Amazon
+              </p>
+            </div>
 
             {/* Stepped Single-Beat Punchline */}
             <div className="h-20 flex items-center mb-4">
@@ -101,27 +107,15 @@ export const Slide02_SpeakerIntro: React.FC<SlideProps> = ({ step }) => {
           </motion.div>
         </div>
 
-        {/* Right Column: Stylized Avatar in Retro Frame */}
+        {/* Right Column: Stylized Avatar (Clean without bottom overlay strip) */}
         <div className="lg:col-span-5 flex flex-col justify-center items-center">
           <RetroIllustrationFrame variant="dark" className="w-full max-w-sm">
-            <div className="relative rounded-xl overflow-hidden border border-[#3D352E] shadow-2xl aspect-square group">
+            <div className="relative rounded-xl overflow-hidden border border-[#3D352E] shadow-2xl aspect-square">
               <img
                 src={sujitAvatarImg}
-                alt="Sujit Kumar Pradhan"
+                alt="Sujit Pradhan"
                 className="w-full h-full object-cover filter contrast-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#12100E] via-transparent to-transparent opacity-80" />
-              
-              {/* Bottom Tag */}
-              <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs font-mono text-[#FDFBF7]">
-                <div className="flex items-center gap-1.5">
-                  <Sparkles className="w-3.5 h-3.5 text-[#E59A2F]" />
-                  <span className="font-bold">Sujit Pradhan</span>
-                </div>
-                <span className="text-[#34D399] text-[10px] font-bold px-2 py-0.5 rounded bg-black/60 border border-white/10">
-                  SPEAKER
-                </span>
-              </div>
             </div>
           </RetroIllustrationFrame>
         </div>
