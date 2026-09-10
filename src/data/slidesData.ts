@@ -17,12 +17,12 @@ export const SLIDES_DATA: SlideMeta[] = [
     subQuote: "Reclaiming craft. Guided by judgment.",
     talkingPoints: [
       "Privilege to address UX India's vibrant, diverse creator community.",
-      "Seeing the UX India speaker topics submission.",
+      "Seeing the call for UX India speaker topics.",
       "The 3-second Gemini prompt: 'Translate this mess into a professional keynote paper.'",
       "The temporary rush of instant superpower vs. realizing we outsourced our own reason.",
       "Becoming an intellectual tourist in your own talk vs. inhabiting your craft."
     ],
-    speakerScript: "Hello, everyone! It is an absolute privilege to stand here on this stage at UX India. Look around the room, we have an incredible, diverse community of creators here today. But before we dive into the deep philosophical questions of our craft, I have a small story to talk about.\n\nA few months ago, I saw this submission for UX India speaker topics. And then, I did what any modern, tired tech worker does: I dumped a messy scratchpad into Gemini and typed: 'Translate this mess into a professional, high-concept keynote paper.' In seconds, it spit out dozens of titles, polished outlines, and rich content. For a second, it felt like a superpower.\n\nBut then, I realized I had just fallen headfirst into the exact trap I wanted to warn you about. I had outsourced my own reason. But had I turned myself into an intellectual tourist in my own talk, visiting these slides instead of inhabiting them?",
+    speakerScript: "Hello, everyone! It is an absolute privilege to stand here on this stage at UX India. Look around the room—we have an incredible, diverse community of creators here today. But before we dive into the deep philosophical questions of our craft, I have a small story to talk about.\n\nA few months ago, I saw this submission for UX India speaker topics. And then, I did what any modern, tired tech worker does: I dumped a messy scratchpad into Gemini and typed: 'Translate this mess into a professional, high-concept keynote paper.' In seconds, it spit out dozens of titles, polished outlines, and rich content. For a second, it felt like a superpower.\n\nBut then, I realized I had just fallen headfirst into the exact trap I wanted to warn you about. I had outsourced my own reason. But had I turned myself into an intellectual tourist in my own talk, visiting these slides instead of inhabiting them?\n\nSo today, we are going to look into that exact mirror: what happens when we automate design completely, what we lose when machines do the thinking, and how we reclaim our actual superpower.",
     keyTakeaway: "When you outsource the thinking, you become a tourist in your own creation.",
     stepsCount: 3
   },
@@ -88,7 +88,7 @@ export const SLIDES_DATA: SlideMeta[] = [
     citations: ["[226]", "[228]", "[235]", "[504]"],
     visualDirection: "A high-contrast grid of 12 real popular app interfaces looking identical in corporate blue & gray with Tilburg 2026 data overlay.",
     mainQuote: "Collective Homogenization",
-    subQuote: "When everyone uses the same brain, everyone designs the same thing.",
+    subQuote: "When everyone uses the same model, everyone designs the same thing.",
     talkingPoints: [
       "Every SaaS landing page and mobile app is collapsing into generic uniformity.",
       "Tilburg University April 2026 Meta-Analysis on human-AI co-creation.",
@@ -146,7 +146,7 @@ export const SLIDES_DATA: SlideMeta[] = [
       "AI is utterly blind at Discernment: no body, no lived experience, never felt joy, shame, or grief.",
       "Historical parallel: 1950s compiler introduction freed programmers to architect systems."
     ],
-    speakerScript: "So how do we draw the line? We use a framework called The E vs. D Frontier.\n\nExecution (E) is the making. It is the mechanical, high-friction, repetitive work: naming Figma layers, coding layout variations, localizing screens into thirty languages. Discernment (D) is the choosing. It is taste, intuition, empathy, systems thinking, and understanding the emotional and cultural context of WHY a design matters.\n\nAI is an absolute beast at Execution. It can generate fifty layouts in three seconds. If your value is just Execution, if you are paid for the speed of your cursor, you are trying to outrun a machine. You will lose.\n\nBut AI is utterly blind when it comes to Discernment. A machine does not have a body. It has never experienced joy, shame, or grief. It can generate a thousand screen variations, but it has no idea if that screen actually means something to a human being. We must aggressively automate Execution so we can fiercely protect Discernment.",
+    speakerScript: "So how do we draw the line? We use a framework called The E vs. D Frontier.\n\nExecution (E) is the making. It is the mechanical, high-friction, repetitive work: naming Figma layers, coding layout variations, localizing screens into thirty languages. Discernment (D) is the choosing. It is taste, intuition, empathy, systems thinking, and understanding the emotional and cultural context of WHY a design matters.\n\nAI is an absolute beast at Execution. It can generate fifty layouts in three seconds. If your value is just Execution, if you are paid for the speed of your cursor, you are trying to outrun a machine. You will lose.\n\nBut AI is utterly blind when it comes to Discernment. A machine does not have a body. It has never experienced joy, shame, or grief. It can generate a thousand screen variations, but it has no idea if that screen actually means something to a human being. Just like compilers in the 1950s freed programmers from machine code to architect higher-level systems, automating Execution frees us to fiercely protect Discernment.",
     keyTakeaway: "Execution is mechanical making (automate it). Discernment is human choosing (protect it).",
     stepsCount: 3
   },

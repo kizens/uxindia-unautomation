@@ -51,7 +51,7 @@ export const Slide01_Confession: React.FC<SlideProps> = ({ step }) => {
                 transition={{ duration: 0.35 }}
                 className="text-base sm:text-lg md:text-xl text-[#E59A2F] font-mono"
               >
-                Exhausted quarter. Empty brain. Dumped chaotic thoughts into Gemini.
+                Saw the call for UX India speaker topics. Dumped messy thoughts into Gemini.
               </motion.div>
             )}
 
@@ -64,7 +64,7 @@ export const Slide01_Confession: React.FC<SlideProps> = ({ step }) => {
                 transition={{ duration: 0.35 }}
                 className="text-base sm:text-lg md:text-xl text-[#3D7EA6] font-mono"
               >
-                In seconds, it handed me so many titles and content. It felt like a superpower.
+                In seconds, it generated polished titles and outlines. It felt like a superpower.
               </motion.div>
             )}
 

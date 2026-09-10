@@ -10,12 +10,17 @@
 * **Core Framework:** **The E vs. D Frontier**—Execution (E) vs. Discernment (D) [158]. 
 * **The Keynote Arc:** 
   1. *The Confession:* A funny opening connecting the UX India invitation to our automated temptations.
-  2. *The Mirage:* How "Design Automated" actually looks today and how we got hooked.
-  3. *The Crash:* The proven collective homogenization effect and cognitive rot.
-  4. *The Frontier:* Necessary vs. toxic automation (Execution vs. Discernment).
-  5. *The Proof:* Real-world outliers (Cash App, Google Flights, Microsoft Research).
-  6. *The Superpower:* Why thinking is our ultimate un-automatable advantage.
-  7. *The Loop Back:* Connecting back to the opening to show the "Un-automated lens" in action.
+  2. *The Speaker:* Sujit Pradhan—coder turned designer, agentic ecosystems at Google, manual craft.
+  3. *The Mirage:* How "Design Automated" actually looks today and how we got hooked.
+  4. *The Crash:* The proven collective homogenization effect and cognitive rot.
+  5. *The Forklift:* Dr. Doshi's study, cognitive offloading, core vs. non-core.
+  6. *The Frontier:* Execution (E) vs. Discernment (D).
+  7. *The Boundary:* Necessary vs. toxic automation (Should Automate vs. Must Drive).
+  8. *The Proof:* Designing for Calibrated Trust (Google Flights case study).
+  9. *The Superpower:* The Ultimate Ironic Mirror—why thinking is our un-automatable advantage.
+  10. *The Outliers:* Opinionated Design (Claude Artifacts, Cash App, Rick Rubin).
+  11. *The Roadmap:* Three Rules for Tomorrow & the Closing Question.
+  12. *The Finale:* Thank You & Connect (Prompt the Human, Linktree).
 
 ---
 
@@ -25,7 +30,7 @@
 A large screenshot of a very formal, elegant email invitation that says: **"UX India Keynote Invitation."** Directly below it is an arrow pointing to a second screenshot of a chat window where a user has typed: *"Help! Make a fancy keynote for me."*
 
 ### Slide Content
-> **Design Un-automated**
+> **Design Un-automated**  
 > *Reclaiming craft. Guided by judgment.* [346, 360]
 
 ### Speaker Script & Talking Points
@@ -47,13 +52,32 @@ So today, we are going to look into that exact mirror [114]. We are going to tal
 
 ---
 
-## SLIDE 2: The Illusion of "Design Automated" (3:00 - 6:00)
+## SLIDE 2: Sujit Pradhan (Speaker Intro) (3:00 - 5:00)
+
+### Visual Direction
+Sujit's 3D clay Van Gogh Starry Night portrait framed inside an architectural blueprint drafting schematic with animated precision registration marks and dimension calipers.
+
+### Slide Content
+> **Sujit Pradhan.**  
+> *UX Designer at Google • Microsoft • Amazon • ONN Bikes • Incture Technologies*  
+> *Designing Agentic enterprise ecosystems at Google.*
+
+### Speaker Script & Talking Points
+"I'm Sujit Pradhan. Right now, I design Agentic enterprise ecosystems at Google, following design journeys across Microsoft, Amazon, ONN Bikes, and Incture Technologies.
+
+I started in Computer Science, broke production builds, and quickly realized humans are far more interesting than compiler logs.
+
+Off-screen, I'm an obsessive Lego builder and sneaker collector. Snapping bricks by hand reminds me that tactile, human discernment can never be automated. That conviction is why we are having this conversation today."
+
+---
+
+## SLIDE 3: The Illusion of "Design Automated" (5:00 - 8:00)
 
 ### Visual Direction
 A simple, funny cartoon showing a designer asleep on their desk, while a robotic hand holding a pencil rapidly draws a giant, standard-issue layout template on a glowing monitor. 
 
 ### Slide Content
-> **The 'Autopilot' Flow**
+> **The 'Autopilot' Flow**  
 > *Frictionless, fast, and completely empty.* [143, 437, 453]
 
 ### Speaker Script & Talking Points
@@ -73,17 +97,17 @@ If our only job as designers is to follow a rigid, automated step-by-step checkl
 
 ---
 
-## SLIDE 3: The Danger of "The Blur" (6:00 - 9:00)
+## SLIDE 4: The Danger of "The Blur" (8:00 - 11:00)
 
 ### Visual Direction
 A high-contrast grid of 12 real, popular app interfaces. They are all incredibly clean, rounded, and professional—but they look completely identical. The color palettes are all shades of safe, corporate blue and gray.
 
 ### Slide Content
-> **Collective Homogenization**
-> *When everyone uses the same brain, everyone designs the same thing.* [228, 234, 504]
+> **Collective Homogenization**  
+> *When everyone uses the same model, everyone designs the same thing.* [228, 234, 504]
 
 ### Speaker Script & Talking Points
-"Have you noticed that lately, every single SaaS app, landing page, and modern website is starting to feel exactly the same? [143, 151] It’s competent, it's polite, it's highly polished—but it has absolutely no soul [143]. It’s a vast, endless sea of 'beige goo' [143, 325]. 
+"Have you noticed that lately, every single SaaS app, landing page, and modern website is starting to feel exactly the same? [143, 151] It’s competent, it's polite, it's highly polished—but it has absolutely no soul [143]. It’s a vast, endless sea of generic uniformity.
 
 This isn’t just a feeling. It is a proven, documented scientific fact [226]. 
 
@@ -99,13 +123,13 @@ We aren't failing because our designs are bad [506]. We are failing because they
 
 ---
 
-## SLIDE 4: The Core vs. Non-Core Trap (9:00 - 12:00)
+## SLIDE 5: The Core vs. Non-Core Trap (11:00 - 14:00)
 
 ### Visual Direction
 A split screen showing a caricature of a person at a gym lifting a massive heavy dumbbell (captioned: **Doing the Reps**), next to a person sitting in a forklift lifting a small 5-pound dumbbell (captioned: **Cognitive Offloading**) [441].
 
 ### Slide Content
-> **The Forklift at the Gym**
+> **The Forklift at the Gym**  
 > *You don't build muscle by watching a machine lift.* [431, 441]
 
 ### Speaker Script & Talking Points
@@ -128,13 +152,13 @@ Renting out your brain is the true threat [431, 437]. If we stop doing the hard 
 
 ---
 
-## SLIDE 5: The E vs. D Frontier (12:00 - 15:00)
+## SLIDE 6: The E vs. D Frontier (14:00 - 17:00)
 
 ### Visual Direction
 A bold, graphic contrast. A solid, deep-blue section on the left labeled **"EXECUTION (E)"** with a wrench icon, and a glowing, bright-gold section on the right labeled **"DISCERNMENT (D)"** with a compass icon [158].
 
 ### Slide Content
-> **Execution (E) vs. Discernment (D)**
+> **Execution (E) vs. Discernment (D)**  
 > *Let the machine execute. Protect the judgment.* [145, 146, 158]
 
 ### Speaker Script & Talking Points
@@ -147,21 +171,17 @@ AI is an absolute beast at **Execution** [141, 145]. It can generate fifty layou
 
 But AI is utterly blind when it comes to **Discernment** [146, 525]. A machine does not have a body [323]. It does not have feelings [117, 330]. It has never experienced joy, shame, or grief [477]. It can generate a thousand variations of a screen, but it has no idea if that screen actually means something to a human being [395, 404].
 
-We must aggressively automate **Execution** [158] so that we can fiercely protect **Discernment** [145]. 
-
-When compilers were first introduced in the 1950s, programmers panicked [104]. They thought their roles were obsolete because the computer could automate machine code [104]. But instead, they eliminated repetitive drudgery and were freed up to architect higher-level software systems [77, 104]. 
-
-We must do the exact same thing in design [77]. Driving the outcome means letting the AI handle the pixels so we can spend our saved cognitive energy on the hard, human decisions [103, 145]."
+Just like compilers in the 1950s freed programmers from machine code to architect higher-level systems [104], automating Execution frees us to fiercely protect Discernment [145, 158]."
 
 ---
 
-## SLIDE 6: What to Automate vs. What to Drive (15:00 - 18:00)
+## SLIDE 7: What to Automate vs. What to Drive (17:00 - 20:00)
 
 ### Visual Direction
-A clean, contrasting table. Column 1: **"Should Automate (Execution)"** with light icons of spreadsheets, folders, and translated text. Column 2: **"Must Drive (Discernment)"** with glowing icons of a metaphorical bridge, a heart, and a hand-drawn sketch.
+A clean, contrasting matrix. Column 1: **"Should Automate (Execution)"** with light icons of tokens, research repositories, and boilerplate code. Column 2: **"Must Drive (Discernment)"** with glowing icons of root human need, empathy, and strategic intent.
 
 ### Slide Content
-> **Automating the outcome is toxic.**
+> **Automating the outcome is toxic.**  
 > *Driving the outcome is design un-automated.* [16, 98]
 
 ### Speaker Script & Talking Points
@@ -183,45 +203,35 @@ That is **Design Un-automated** [157]. We don't stop thinking; we start thinking
 
 ---
 
-## SLIDE 7: Designing for \"Calibrated Trust\" (18:00 - 21:00)
+## SLIDE 8: Designing for "Calibrated Trust" (20:00 - 23:00)
 
 ### Visual Direction
-A clean, visual diagram representing the concept of **"Calibrated Trust."** On the left: "Under-trust" (a user ignoring the product in frustration). On the right: "Over-trust" (a user blindly following a cliff). In the middle: "Calibrated Trust" (a user in total control).
+A clean, visual diagram representing the concept of **"Calibrated Trust"** using the Google Flights case study. Features the route from Hyderabad to Leh Ladakh with a Delhi connection, contrasting plain-language clarity against confusing confidence scores.
 
 ### Slide Content
-> **Calibrated Trust**
+> **Calibrated Trust**  
 > *Help users apply their own judgment.* [207, 208]
 
 ### Speaker Script & Talking Points
-"Let me show you a real-world example of how to design for this un-automated frontier [157]. 
+"Let me show you a real-world example of designing for this un-automated frontier [157]: Google Flights **Flight Insights** [171]. The team followed the People + AI Guidebook [171]. 
 
-Google Flights has a feature called **Flight Insights** that helps users know when is the best time to buy a plane ticket [171]. The Flights team used the People + AI Guidebook to design this [171]. 
+They had the fare algorithms and historical data: they could have automated the outcome and auto-booked flights [67, 184]. But travel involves deeply personal human trade-offs [185, 186].
 
-They had a choice [55]. They could have automated the outcome completely: *'We have the AI, we have the price data—let’s just book the flight for the user automatically.'* [67, 184] 
+Take a journey from Hyderabad to Leh Ladakh with a layover in Delhi. The AI aggregates thousands of fares in milliseconds. But instead of showing confusing math like '88% confidence score' [213, 221], they translate uncertainty into plain-language clarity: *'Prices are currently low. Today is a great day to book.'* [217, 221]
 
-But they realized that travel involves complex, deeply personal human preferences [185, 186]. Some people love overnight flights to save money; some would rather die than take a red-eye [186, 187]. 
+And when the algorithm finds a flight that saves ₹2,800, it also requires a 2:00 AM connection in Delhi. Mathematically, it is optimal. But to a human traveler, 2:00 AM ruins hotel check-in and destroys day one acclimatizing in the Himalayas. The traveler chooses the morning connection. 
 
-So they designed for **augmentation, not automation** [184, 187]. They designed for **Calibrated Trust** [207]. 
-
-Calibrated trust means the user doesn't blindly trust the AI, but they don't ignore it either [207]. They know exactly when to rely on it and when to apply their own judgment [208]. 
-
-How did they design this? [188] 
-
-First, they chose *not* to show a scary, complex numerical confidence score like: *'We are 88% confident the price will rise.'* [213, 221] To a regular person, 88% is just confusing math [220, 221]. 
-
-Instead, they built a system of **plain language explanations** [216, 222]. If the AI is highly confident, the UI says: *'Prices are currently low. Today is a great day to book.'* [217, 221] But if the AI isn't confident, the UI simply says: *'Prices are currently medium,'* and hides the prediction altogether [217, 221]. 
-
-They mapped user needs onto data features responsibly [189, 190]. They didn't let the machine hide behind numbers; they used design to translate complex engineering into human clarity [206, 216]. They kept the human in control [161, 224]."
+That is **Calibrated Trust**: AI provides leverage, but the human retains agency and judgment [161, 207, 224]."
 
 ---
 
-## SLIDE 8: The \"Humiliating Mirror\" (21:00 - 24:00)
+## SLIDE 9: The Ultimate Ironic Mirror (23:00 - 26:00)
 
 ### Visual Direction
-A whimsical, funny illustration of a sleek, high-tech robot standing in front of a whiteboard, holding up a giant sign that reads: **"BREAKING NEWS: THINKING IS AWESOME!"** A human designer is looking on with a bemused, slightly embarrassed smile.
+Whimsical retro visual: sleek futuristic robot holding sign with a human designer smiling. Contrasted with reflections: $100B compute simulation vs lived human experience.
 
 ### Slide Content
-> **The Ultimate Ironic Mirror**
+> **The Ultimate Ironic Mirror**  
 > *AI came to remind us how amazing it is to think.* [102, 114, 117, 368]
 
 ### Speaker Script & Talking Points
@@ -233,70 +243,77 @@ Think about what we have done [401]. Humanity spent the last fifty years [6] inv
 
 Isn’t that beautifully, hilariously tragic? [114] 
 
-We needed a machine to write perfect, sterile, soulless emails [15, 143] and generate generic, boring layouts [141, 151] just to make us realize that our daily, messy, unmappable human minds are the ultimate design tool on the planet [368, 510]. 
+We needed a machine to write sterile emails [15, 143] and generate generic layouts [141, 151] just to realize that our messy human minds are the ultimate design tool on the planet [368, 510]. For twenty years, we tried so hard to turn ourselves into machines [143, 150], worshipping rigid double-diamonds and committee metrics [149, 453]. 
 
-For the last twenty years, we tried so hard to turn ourselves into machines [143, 150]. We worshipped rigid step-by-step processes [453, 454]. We outsourced our creative decisions to A/B testing and committee data out of fear of getting fired [149]. We tried to automate the magic [143].
+No algorithm has ever mapped how a human makes a creative leap [94, 95]. No machine knows what it feels like to walk through a city park on the first warm day of spring [324], or what it means to feel real human empathy [117, 330]. 
 
-But no one in this world—no tech giant, no scientist, no algorithm—has ever been able to map how a human makes a creative leap [94, 95]. No machine knows what it feels like to walk through a city park on the first warm day of spring [324], or what it means to feel real, messy human empathy [117, 330]. 
-
-And the absolute core of great design sits right in the dead center of that unmappable human magic [123, 138]. 
-
-It is sad that it took a robot to remind us of our own power [114, 117]. But now that we’ve been reminded, we must never give the keys back [115, 116]. It's time to stop renting out our brains [431]."
+And the soul of great design sits right in that unmappable human empathy and lived experience [123, 138]. Now that a robot has reminded us of our power, we must never give the keys back [115, 116]."
 
 ---
 
-## SLIDE 9: Real-World Un-automated Outliers (24:00 - 27:00)
+## SLIDE 10: Opinionated Design (26:00 - 28:00)
 
 ### Visual Direction
-A stunning, split-screen photo. On the left: The Anthropic \"Claude Artifacts\" interface—a simple, interactive coding sidebar [458]. On the right: The Cash App \"Tortoise\" bank card—a physical debit card with a highly textured shell pattern [153].
+Split visual: Anthropic Claude Artifacts live sidebar vs Cash App tactile Tortoise-shell bank card and bold green brand system.
 
 ### Slide Content
-> **Opinionated Design**
-> *Taste is your differentiator.* [149, 155]
+> **Opinionated Design**  
+> *Taste is your only true moat.* [149, 155]
 
 ### Speaker Script & Talking Points
 "What does it look like when we actively choose *not* to trust the automated process, and instead trust our own intuition and taste? [454, 473]
 
-Look at the **Claude Artifacts** team at Anthropic [458]. When they built it, they didn't follow a standard 5-step problem-statement checklist [457, 458]. A researcher built a raw, ugly prototype that opened an interactive panel on the side of the chat to run code [458]. It didn't look pretty [458]. But a designer named Michael saw it, trusted his intuition, and ran with it [458, 459]. It defied standard 'rules'—but it fundamentally changed how humanity interacts with AI [459].
+Look at **Claude Artifacts** at Anthropic [458]. They didn't follow a standard 5-step problem-statement checklist [457, 458]. A researcher built a raw, ugly prototype opening a sidebar panel to run code [458]. Designer Michael trusted his instinct and ran with it [458, 459], fundamentally transforming how humanity interacts with AI.
 
-Look at **Cash App** [146]. Almost every bank card in the world is a flat, anonymous rectangle of cheap plastic [153]. Every financial app payments screen is a silent, boring, sterile utility form [154]. Why? Because the 'data' says that's what is most efficient [149]. 
+Look at **Cash App** [146]. Almost every debit card is cheap anonymous flat plastic [153]. Every banking screen is a sterile utility form [154]. But Cam Worboys and his team had a deep human opinion [153, 155]. They asked: *'What if a debit card was an act of personal expression?'* [153] 
 
-But Cash App's design team, led by Cam Worboys, had a deep, human opinion [153, 155]. They asked: *'What if a debit card was an act of personal expression?'* [153] 
+They crafted the tactile Tortoise shell card, glitter bases, and hot pink cards [153]. They designed interactions that intentionally take *more clicks*, defying standard UX dogmas, and customers loved it [154, 155]. 
 
-They launched customizable cards—glitter bases, matte black, and hot pink [153]. They spent months perfecting a gorgeous, textured 'Tortoise' shell pattern card [153]. They built a payment experience that actually takes *more clicks* and defies standard UX logic [154]—but it has an unmistakable, bold, green identity that customers absolutely love [154, 155]. 
+Rick Rubin once said: *'You are being paid for the confidence you have in your taste.'* [149] 
 
-They didn't let the machine's statistical average design their product [151]. They chose to lead with instinct, intuition, and ruthless care for the details [149, 462, 463]. 
-
-Rick Rubin once said: *'You are being paid for the confidence you have in your taste.'* [149] \n\nIn a world where anyone can prompt a polished screen in ten seconds [141, 145], your standard, automated, polite wireframes are worthless [143, 451]. Your taste is your only strategic advantage [149, 155]."
+In a world where anyone can prompt a layout in ten seconds [141, 145], polite automated wireframes are worthless [143, 451]. Taste is your differentiator [149, 155]."
 
 ---
 
-## SLIDE 10: The Un-automated Roadmap (27:00 - 30:00)
+## SLIDE 11: Three Rules for Tomorrow (28:00 - 30:00)
 
 ### Visual Direction
-A bold, minimal screen with three large, glowing numbers: **1, 2, and 3.** Next to each number is a single, clear action step written in simple language.
+Three large illuminated typographic pillars labeled 1, 2, and 3 with clear action mantras, leading into the keynote closing question.
 
 ### Slide Content
-> **Reclaiming the Wheel**
-> 1. **Stop competing on speed.** You will lose. Compete on *meaning* [385, 401].
-> 2. **Practice 'Productive Resistance.'** Make AI challenge your thinking, not replace it [158, 439].
-> 3. **Start validating more before you are confident.** Keep your brain active [346, 431].
+> **Three Rules for Tomorrow**  
+> 1. **Compete on meaning.** Never compete on volume or cursor speed. [385, 401]  
+> 2. **Productive resistance.** Treat AI as a provocative sparring partner. [158, 439]  
+> 3. **Keep the brain active.** Validate before confident; preserve discernment. [346, 431]
 
 ### Speaker Script & Talking Points
-"So, how do we start practicing **Design Un-automated** tomorrow morning? [157, 165] We follow three simple rules:
+"How do we start practicing **Design Un-automated** tomorrow morning? [157, 165] We follow three rules:
 
-First, **stop competing on speed and volume** [401, 402]. AI will always generate more options faster than you [385]. Fluency is the weakest predictor of creative success [385]. Your value is not in producing fifty generic screens; your value is in **Curation**—having the taste to know which single option actually has the soul to connect with a human being [145, 147, 510].
+1. **Stop competing on speed and volume** [401, 402]. AI will always generate more options faster [385]. Compete on meaning and curation: having the taste to pick the single option that connects with a human being [145, 147, 510].
 
-Second, **embrace 'Productive Resistance'** [439]. Do not treat AI as a compliant intern that just autocompletes your sentences and wireframes [88, 363]. Treat it as a provocative partner [157]. Use a Microsoft Research prototype approach: ask it to challenge your assumptions, find the logical fallacies in your design, and argue against your ideas [361, 363, 364]. If you understand your work deeply enough to confidently say 'No' to an AI's suggestion, the tool is doing its job [361].
+2. **Practice 'Productive Resistance'** [439]. Do not treat AI as a compliant intern autocompleting your wireframes [88, 363]. Use the Microsoft Research approach: have it challenge your assumptions, find logical holes, and argue against your ideas [361, 363, 364].
 
-Third, **start validating more before you are confident.** [346] Do not let autopilot take over [437]. Do not rent your brain out to a machine [431]. Keep your critical thinking muscles active on the small, daily, messy tasks so you are ready when the exceptionally complex systems challenges come your way [352, 353].
+3. **Keep your brain active.** Start validating more before you are confident [346]. Keep your critical thinking muscles active on daily messy tasks so you are ready when complex systems challenges arrive [352, 353].
 
-And this brings us right back to where we started today [155, 346]. 
+This brings us back to my confession [346]. Yes, I used AI to help structure this presentation. But the core idea, the struggle, the taste, and the opinion had to come from *me* [360, 364]. Hitting the 'Easy Button' didn't mean I did less work: it gave me the space to do *more thinking* [158, 346, 353].
 
-Remember my confession? [346] Yes, I used AI to help structure this presentation and polish the slides to save me time [141, 346]. But the core idea, the hard thinking, the messy struggle, the frictions, and the opinions—those had to come from *me* [360, 364]. Hitting the 'Easy Button' didn't mean I did less work; it gave me the space to do *more thinking* [158, 346, 353]. It allowed me to focus on what matters: connecting with you in this room today [102, 117].
+So I leave you with this question for UX India: **What would you rather have? A tool that thinks for you, or a tool that makes you think?** [368] 
 
-We stand at a critical crossroads [354]. We can choose to be the middle managers of automated templates, or we can choose to be the primary architects of the human experience [157, 352]. 
+Thank you so much! [378, 479]"
 
-So I leave you with the ultimate, un-automatable question: **What would you rather have? A tool that thinks for you, or a tool that makes you think?** [368]
+---
 
-Thank you so much [378, 479]."
+## SLIDE 12: Thank You & Connect (30:00+)
+
+### Visual Direction
+Warm retro studio background, holographic QR code connect device with animated laser scanner, and interactive link copy button.
+
+### Slide Content
+> **Thank You.**  
+> *Prompt the Human, not just the machine.*  
+> *linktr.ee/sujitpradhan*
+
+### Speaker Script & Talking Points
+"Thank you so much, UX India! It has been an absolute honor. If there is one thing to take away from our time together: prompt the human, not just the machine. 
+
+Scan the QR code on the screen to connect, grab a coffee, or debate the future of agentic UX. Have a wonderful rest of the conference!"

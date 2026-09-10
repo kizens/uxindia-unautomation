@@ -111,7 +111,7 @@ export const Slide07_CalibratedTrust: React.FC<SlideProps> = ({ step }) => {
                     exit={{ opacity: 0, y: -10 }}
                     className="text-sm md:text-base text-[#6BA8D1] font-mono border-l-2 border-[#3D7EA6] pl-3"
                   >
-                    Intent. Hyderabad to Leh. The machine aggregates fare matrixes in milliseconds, but cannot understand human stamina or altitude prep.
+                    Intent. Hyderabad to Leh. The machine aggregates fare matrices in milliseconds, but cannot understand human stamina or altitude prep.
                   </motion.div>
                 )}
 

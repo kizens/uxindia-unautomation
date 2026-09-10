@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'motion/react';
 import { 
   Palette, 
   Sparkles, 
-  Radio, 
   Code, 
   CreditCard, 
   SlidersHorizontal,
@@ -306,11 +305,6 @@ export const Slide09_OpinionatedDesign: React.FC<SlideProps> = ({ step }) => {
                       transition={{ duration: 0.3 }}
                       className="space-y-4"
                     >
-                      <div className="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[#6BA8D1] uppercase tracking-wider">
-                        <Radio className="w-3.5 h-3.5" />
-                        00 • The Sterile Dogma
-                      </div>
-
                       <h3 className="text-2xl sm:text-3xl font-editorial font-bold text-[#FDFBF7] leading-tight">
                         "Safe flat plastic. <br />
                         Zero risk. Zero moat."
@@ -339,11 +333,6 @@ export const Slide09_OpinionatedDesign: React.FC<SlideProps> = ({ step }) => {
                       transition={{ duration: 0.3 }}
                       className="space-y-4"
                     >
-                      <div className="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[#4ADE80] uppercase tracking-wider">
-                        <Code className="w-3.5 h-3.5" />
-                        01 • Claude Artifacts
-                      </div>
-
                       <h3 className="text-2xl sm:text-3xl font-editorial font-bold text-[#FDFBF7] leading-tight">
                         "Raw instinct over <br />
                         roadmap consensus."
@@ -372,11 +361,6 @@ export const Slide09_OpinionatedDesign: React.FC<SlideProps> = ({ step }) => {
                       transition={{ duration: 0.3 }}
                       className="space-y-4"
                     >
-                      <div className="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[#E59A2F] uppercase tracking-wider">
-                        <CreditCard className="w-3.5 h-3.5" />
-                        02 • Cash App & Rick Rubin
-                      </div>
-
                       <h3 className="text-2xl sm:text-3xl font-editorial font-bold text-[#FDFBF7] leading-tight">
                         "You're paid for the confidence <br />
                         in your taste."

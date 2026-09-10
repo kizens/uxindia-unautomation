@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Sparkles, Sun } from 'lucide-react';
-import barberDuskImg from '../assets/indian_street_barber_dusk.png';
+import { Sparkles } from 'lucide-react';
 
 interface SlideProps {
   step: number;
@@ -114,28 +113,16 @@ export const Slide08_HumiliatingMirror: React.FC<SlideProps> = ({ step }) => {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                   transition={{ duration: 0.4 }}
-                  className="relative z-10 w-full h-full flex flex-col justify-between py-2"
+                  className="relative z-10 w-full h-full flex flex-col justify-center items-center py-6 text-center"
                 >
-                  {/* Sub-badge */}
-                  <div className="inline-flex items-center justify-center gap-2 text-[10px] font-mono uppercase tracking-widest text-[#6BA8D1]">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#6BA8D1] animate-ping" />
-                    <span>48,000 Desert GPUs • 42 MegaWatts</span>
-                  </div>
-
-                  {/* Main Message */}
-                  <div className="space-y-2 my-auto">
-                    <h3 className="text-xl sm:text-2xl font-editorial font-bold text-[#FDFBF7] leading-snug">
+                  <div className="space-y-3 my-auto">
+                    <h3 className="text-2xl sm:text-3xl lg:text-4xl font-editorial font-bold text-[#FDFBF7] leading-snug">
                       Searching 1.8 Trillion Weights <br />
                       <span className="text-[#6BA8D1] italic">for the formula of creativity.</span>
                     </h3>
-                    <p className="text-xs font-mono text-[#8E8375] max-w-md mx-auto">
+                    <p className="text-xs sm:text-sm font-mono text-[#8E8375] max-w-md mx-auto leading-relaxed">
                       Simulated the internet. Reached the statistical middle.
                     </p>
-                  </div>
-
-                  {/* Bottom Status */}
-                  <div className="text-[10px] font-mono text-[#FFA499] bg-[#C83E2D]/15 border border-[#C83E2D]/30 py-1 px-3 rounded-full mx-auto">
-                    Lived Experience: 0.00%
                   </div>
                 </motion.div>
               )}
@@ -148,33 +135,21 @@ export const Slide08_HumiliatingMirror: React.FC<SlideProps> = ({ step }) => {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                   transition={{ duration: 0.4 }}
-                  className="relative z-10 w-full h-full flex flex-col justify-between py-2"
+                  className="relative z-10 w-full h-full flex flex-col justify-center items-center py-6 text-center"
                 >
-                  {/* Sub-badge */}
-                  <div className="inline-flex items-center justify-center gap-2 text-[10px] font-mono uppercase tracking-widest text-[#E59A2F]">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#E59A2F] animate-ping" />
-                    <span>Official 50-Year Research Finding</span>
-                  </div>
-
-                  {/* Hero Epiphany Headline */}
-                  <div className="my-auto space-y-1">
+                  <div className="my-auto space-y-2">
                     <div className="text-xs font-mono uppercase font-bold text-[#C83E2D] tracking-widest">
                       BREAKING NEWS:
                     </div>
                     <h3 className="text-3xl sm:text-4xl lg:text-5xl font-editorial font-bold text-[#FDFBF7] tracking-tight leading-none">
                       "THINKING IS <br />
-                      <span className="text-[#E59A2F] underline decoration-wavy decoration-[#C83E2D]">
+                      <span className="text-[#E59A2F]">
                         AWESOME!"
                       </span>
                     </h3>
-                    <p className="text-xs font-mono text-[#D0C5B4] pt-1">
+                    <p className="text-xs sm:text-sm font-mono text-[#D0C5B4] pt-2 max-w-md mx-auto leading-relaxed">
                       After $100B, machines confirm: your mind is the miracle.
                     </p>
-                  </div>
-
-                  {/* Smug Confirmation */}
-                  <div className="text-[10px] font-mono text-[#34D399] bg-[#34D399]/15 border border-[#34D399]/30 py-1 px-3 rounded-full mx-auto font-bold">
-                    😏 The Human Superpower Rediscovered
                   </div>
                 </motion.div>
               )}
@@ -187,33 +162,14 @@ export const Slide08_HumiliatingMirror: React.FC<SlideProps> = ({ step }) => {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.95 }}
                   transition={{ duration: 0.4 }}
-                  className="absolute inset-0 w-full h-full flex flex-col justify-end p-6 sm:p-8 text-left"
+                  className="relative z-10 w-full h-full flex flex-col justify-center items-center py-6 text-center"
                 >
-                  {/* The Lived Street Image Canvas */}
-                  <img
-                    src={barberDuskImg}
-                    alt="Indian Street Barber at Dusk"
-                    className="absolute inset-0 w-full h-full object-cover filter saturate-110 contrast-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#12100E] via-[#12100E]/40 to-black/20" />
-
-                  {/* Overlaid Minimal Insight */}
-                  <div className="relative z-10 space-y-1.5">
-                    <div className="flex items-center justify-between text-[10px] font-mono text-[#E59A2F] uppercase font-bold tracking-wider">
-                      <span className="flex items-center gap-1.5">
-                        <Sun className="w-3.5 h-3.5" />
-                        Lived Human Experience
-                      </span>
-                      <span className="text-[#34D399] bg-black/60 px-2.5 py-0.5 rounded border border-[#34D399]/40">
-                        UNMAPPABLE
-                      </span>
-                    </div>
-
-                    <h4 className="text-2xl sm:text-3xl font-editorial font-bold text-[#FDFBF7]">
-                      Craft, Empathy & Rhythm.
-                    </h4>
-
-                    <p className="text-xs sm:text-sm font-mono text-[#D5C9B8] leading-relaxed max-w-lg">
+                  <div className="space-y-3 my-auto">
+                    <h3 className="text-2xl sm:text-3xl lg:text-4xl font-editorial font-bold text-[#FDFBF7] leading-tight">
+                      Craft, Empathy <br />
+                      <span className="text-[#E59A2F] italic">& Rhythm.</span>
+                    </h3>
+                    <p className="text-xs sm:text-sm font-mono text-[#D0C5B4] max-w-md mx-auto leading-relaxed">
                       30 years of scissor muscle memory, chai conversations, and dusk temple bells. No model can compute lived soul.
                     </p>
                   </div>
