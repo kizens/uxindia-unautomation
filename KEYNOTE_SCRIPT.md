@@ -31,9 +31,9 @@ A large screenshot of a very formal, elegant email invitation that says: **"UX I
 ### Speaker Script & Talking Points
 "Hello, everyone! It is an absolute privilege to stand here on this stage at UX India [480]. Look around the room—we have an incredible, diverse community of creators here today [138, 480]. 
 
-But before we dive into the deep, philosophical questions of our craft, I have a confession to make. A slightly embarrassing, completely true confession.
+But before we dive into the deep, philosophical questions of our craft, I have a small story to talk about.
 
-A few months ago, I got this beautiful email inviting me to deliver a keynote here [480]. I was thrilled! But I was also in the middle of a brutal, exhausting quarter at work [635, 663]. My inbox was overflowing, my slack was screaming, and my brain felt like mush [347, 617]. I was staring at my computer, thinking about this massive daily struggle we are all experiencing: *How on earth do we survive this hyper-speed, AI-driven tech landscape?* [157, 482] 
+A few months ago, I saw this submission for UX India speaker topics [480]. 
 
 And then, I did what any modern, tired tech worker does when they hit a wall. I opened up a raw scratchpad, brain-dumped a messy, chaotic list of my thoughts, and fed it into Gemini [7, 347]. I typed: *'Translate this mess into a professional, high-concept keynote paper.'* [10, 157, 347]
 
@@ -41,7 +41,7 @@ In seconds, it spit out dozens of titles, polished outlines, and rich content [1
 
 And I am not going to lie, for a second, it felt like a superpower [141, 372]. I thought, *'Wow, this is so easy! I have solved the presentation problem!'* [141, 353]
 
-But then, a cold chill ran down my spine [142]. I realized that I had just fallen headfirst into the exact trap I wanted to warn you about [157, 346]. I had just outsourced my own reason [348]. But had I turned myself into an intellectual tourist in my own talk, visiting these slides instead of inhabiting them? [349] 
+But then, I realized that I had just fallen headfirst into the exact trap I wanted to warn you about [157, 346]. I had just outsourced my own reason [348]. But had I turned myself into an intellectual tourist in my own talk, visiting these slides instead of inhabiting them? [349] 
 
 So today, we are going to look into that exact mirror [114]. We are going to talk about what happens when we automate design completely, what we lose when we let machines do the thinking, and how we reclaim our actual superpower [157, 368]."
 

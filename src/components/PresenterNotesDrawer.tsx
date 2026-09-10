@@ -50,7 +50,6 @@ export const PresenterNotesDrawer: React.FC<Props> = ({
           {/* Minimal Footer */}
           <div className="p-3.5 border-t border-[#38302A] bg-[#14100E] text-xs font-mono text-[#A89F91] flex items-center justify-between">
             <span>Press <kbd className="px-1.5 py-0.5 rounded bg-[#2D241E] text-white">N</kbd> or <kbd className="px-1.5 py-0.5 rounded bg-[#2D241E] text-white">Esc</kbd> to close</span>
-            <span className="text-[#E59A2F]">Speaker Teleprompter</span>
           </div>
         </motion.div>
       )}

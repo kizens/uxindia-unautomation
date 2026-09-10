@@ -2,10 +2,8 @@ import React, { useState, useEffect } from "react";
 import { motion } from "motion/react";
 import confetti from "canvas-confetti";
 import { 
-  Sparkles, 
   Copy, 
   Check, 
-  Flame, 
   QrCode
 } from "lucide-react";
 import retroWorkspaceBg from "../assets/retro_workspace_bg.jpg";
@@ -66,55 +64,21 @@ export const Slide12_ThankYou: React.FC<SlideProps> = ({ step = 0 }) => {
       <div className="relative z-10 w-full max-w-6xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-center">
         
         {/* Left Column: Majestic Typographic "Thank You" & Core Mantra */}
-        <div className="lg:col-span-6 flex flex-col justify-center space-y-6">
+        <div className="lg:col-span-6 flex flex-col justify-center space-y-4">
           <motion.div
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            {/* Top Pill */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E59A2F]/15 border border-[#E59A2F]/30 text-xs font-mono text-[#F5B041] mb-5 font-semibold tracking-widest uppercase">
-              <Sparkles className="w-3.5 h-3.5 text-[#E59A2F]" />
-              <span>UX INDIA 2026 • KEYNOTE FINALE</span>
-            </div>
-
-            {/* Giant Iconic Headline (Matching Slide 01 scale) */}
-            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[0.95] mb-5 drop-shadow-md">
-              Thank <br />
-              <span className="text-[#E59A2F] italic">You.</span>
+            {/* Giant Iconic Headline in a Single Line */}
+            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-none mb-6 drop-shadow-md whitespace-nowrap">
+              Thank <span className="text-[#E59A2F] italic">You.</span>
             </h1>
 
-            {/* Subtitle */}
-            <p className="text-2xl sm:text-3xl text-[#34D399] font-editorial italic font-normal mb-8 drop-shadow">
+            {/* Subtitle - One Line */}
+            <p className="text-xl sm:text-2xl lg:text-3xl text-[#34D399] font-editorial italic font-normal drop-shadow whitespace-nowrap">
               Prompt the Human, not just the machine.
             </p>
-
-            {/* Closing Keynote Question Callout */}
-            <div className="border-l-2 border-[#E59A2F] pl-4 py-2 space-y-2 bg-[#181412]/50 backdrop-blur-sm rounded-r-xl pr-4">
-              <p className="text-lg sm:text-xl text-[#FDFBF7] font-editorial font-bold leading-relaxed">
-                "What would you rather have? <br />
-                <span className="text-[#C83E2D]">A tool that thinks for you,</span> or{" "}
-                <span className="text-[#E59A2F]">a tool that makes you think?</span>"
-              </p>
-              <div className="flex items-center gap-3 pt-1 text-xs font-mono text-[#A89F91]">
-                <span className="font-bold text-[#FDFBF7]">Sujit Pradhan</span>
-                <span>•</span>
-                <span>UX Designer at Google</span>
-              </div>
-            </div>
-
-            {/* Interactive Confetti Button */}
-            <div className="pt-4">
-              <button
-                type="button"
-                onClick={triggerConfetti}
-                className="px-4 py-2 rounded-xl bg-[#E59A2F]/20 hover:bg-[#E59A2F]/30 border border-[#E59A2F]/40 text-xs font-mono text-[#F5B041] font-bold flex items-center gap-2 transition-all cursor-pointer hover:scale-105 active:scale-95 shadow-lg"
-              >
-                <Flame className="w-4 h-4 text-[#E59A2F]" />
-                <span>Celebrate Human Craft</span>
-                {confettiCount > 0 && <span className="text-[11px] text-[#FDFBF7]">({confettiCount})</span>}
-              </button>
-            </div>
           </motion.div>
         </div>
 
@@ -126,18 +90,18 @@ export const Slide12_ThankYou: React.FC<SlideProps> = ({ step = 0 }) => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex flex-col items-center text-center"
           >
-            {/* Ambient Glow */}
+            {/* Scan To Connect - Moved to Top of QR */}
+            <div className="text-sm font-mono font-bold tracking-widest uppercase text-[#FDFBF7] flex items-center justify-center gap-2 mb-4">
+              <QrCode className="w-4 h-4 text-[#34D399]" />
+              <span>Scan to Connect</span>
+            </div>
+
+            {/* Ambient Glow & QR Container */}
             <div className="relative group cursor-pointer" onClick={triggerConfetti}>
               <div className="absolute -inset-4 bg-gradient-to-r from-[#C83E2D]/25 via-[#E59A2F]/35 to-[#34D399]/30 rounded-3xl blur-2xl group-hover:opacity-100 transition-opacity duration-500 opacity-75" />
 
               {/* Big Crisp White QR Card for instant phone scanning */}
               <div className="relative p-5 sm:p-6 rounded-3xl bg-white shadow-[0_0_60px_rgba(229,154,47,0.25)] border-2 border-[#E59A2F]/50 overflow-hidden group-hover:border-[#34D399] transition-all duration-300 group-hover:scale-[1.02]">
-                {/* Viewfinder Corner Brackets */}
-                <span className="absolute top-2.5 left-2.5 w-5 h-5 border-t-2 border-l-2 border-[#12100E] z-20 pointer-events-none" />
-                <span className="absolute top-2.5 right-2.5 w-5 h-5 border-t-2 border-r-2 border-[#12100E] z-20 pointer-events-none" />
-                <span className="absolute bottom-2.5 left-2.5 w-5 h-5 border-b-2 border-l-2 border-[#12100E] z-20 pointer-events-none" />
-                <span className="absolute bottom-2.5 right-2.5 w-5 h-5 border-b-2 border-r-2 border-[#12100E] z-20 pointer-events-none" />
-
                 {/* Big QR Code Image */}
                 <img
                   src={qrcodeImg}
@@ -155,13 +119,8 @@ export const Slide12_ThankYou: React.FC<SlideProps> = ({ step = 0 }) => {
               </div>
             </div>
 
-            {/* Clean Minimalist Connect Bar */}
-            <div className="mt-5 space-y-2.5 w-full max-w-xs">
-              <div className="text-sm font-mono font-bold tracking-widest uppercase text-[#FDFBF7] flex items-center justify-center gap-2">
-                <QrCode className="w-4 h-4 text-[#34D399]" />
-                <span>Scan to Connect</span>
-              </div>
-
+            {/* Clean Minimalist Connect Bar - Below QR */}
+            <div className="mt-4 w-full max-w-xs">
               {/* Copy Link Button */}
               <button
                 type="button"
