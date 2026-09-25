@@ -18,6 +18,7 @@ import { Slide08_HumiliatingMirror } from '../slides/Slide08_HumiliatingMirror';
 import { Slide09_OpinionatedDesign } from '../slides/Slide09_OpinionatedDesign';
 import { Slide10_Roadmap } from '../slides/Slide10_Roadmap';
 import { Slide12_ThankYou } from '../slides/Slide12_ThankYou';
+import { Slide13_Feedback } from '../slides/Slide13_Feedback';
 
 const SLIDE_COMPONENTS = [
   Slide01_Confession,
@@ -32,6 +33,7 @@ const SLIDE_COMPONENTS = [
   Slide09_OpinionatedDesign,
   Slide10_Roadmap,
   Slide12_ThankYou,
+  Slide13_Feedback,
 ];
 
 export const Presentation: React.FC = () => {

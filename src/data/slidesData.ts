@@ -298,5 +298,29 @@ export const SLIDES_DATA: SlideMeta[] = [
     speakerScript: "Thank you so much, UX India! It has been an absolute honor. If there is one thing to take away from our time together: prompt the human, not just the machine. Scan the QR code on the screen to connect, grab a coffee, or debate the future of agentic UX. Have a wonderful rest of the conference!",
     keyTakeaway: "Prompt the human, not just the machine. Keep human discernment at the center.",
     stepsCount: 2
+  },
+  {
+    id: 13,
+    slideNumber: "13",
+    slug: "feedback",
+    title: "Questions & Feedback",
+    themePhrase: "Questions & Feedback",
+    subtitle: "Scan to ask any questions or share feedback about the talk.",
+    timeRange: "Q&A",
+    targetMinutes: 5,
+    badge: "FINALE • FEEDBACK & Q&A",
+    citations: ["UX India 2026", "Audience Q&A"],
+    visualDirection: "Warm retro studio background with high-contrast QR code card for audience questions and session feedback.",
+    mainQuote: "Questions & Feedback",
+    subQuote: "Scan the QR code to ask a question or share your thoughts on the talk.",
+    talkingPoints: [
+      "Scan the QR code on screen to submit questions or share candid feedback about the session.",
+      "Open floor for discussing agentic UX, craft vs. automation, and calibrated trust.",
+      "Every piece of feedback helps refine this conversation."
+    ],
+    speakerScript: "Before we wrap up completely, I'd love to hear from you. Please scan this QR code on the screen to drop any questions you have or share your honest feedback about today's talk. Let's open it up!",
+    keyTakeaway: "Great conversations continue through candid feedback and curious questions.",
+    stepsCount: 1
   }
 ];
+
