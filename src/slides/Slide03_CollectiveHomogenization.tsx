@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { RetroIllustrationFrame } from '../components/RetroIllustrationFrame';
+import { Ambient3DBackground } from '../components/Ambient3DBackground';
 
 interface SlideProps {
   step: number;
@@ -69,8 +70,8 @@ export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step })
   const postAiPath = "M 40,230 L 248,230 C 265,230 274,22 280,22 C 286,22 295,230 312,230 L 520,230";
 
   return (
-    <div className="relative w-full h-full flex flex-col justify-center items-center px-6 md:px-12 py-6 overflow-hidden bg-[#12100E]">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(200,62,45,0.12),transparent_60%)] pointer-events-none" />
+    <div className="relative w-full h-full flex flex-col justify-center items-center px-6 md:px-12 py-6 overflow-hidden bg-[#100E0C]">
+      <Ambient3DBackground variant={4} />
 
       {/* Main Grid */}
       <div className="relative z-10 w-full max-w-6xl grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
@@ -205,22 +206,6 @@ export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step })
                     <text x="50" y="246" fill="#7E7264" fontSize="8" fontFamily="monospace">← Broad Diversity</text>
                     <text x="510" y="246" fill="#7E7264" fontSize="8" fontFamily="monospace" textAnchor="end">Broad Diversity →</text>
                   </svg>
-
-                  {/* Post-AI Callout Annotation (Inspired by reference image) */}
-                  <AnimatePresence>
-                    {step >= 1 && (
-                      <motion.div
-                        initial={{ opacity: 0, scale: 0.9, x: 20 }}
-                        animate={{ opacity: 1, scale: 1, x: 0 }}
-                        exit={{ opacity: 0 }}
-                        transition={{ duration: 0.5, delay: 0.25 }}
-                        className="absolute right-4 top-4 bg-[#261311] border border-[#C83E2D] rounded-md px-3 py-1.5 text-xs font-mono text-[#FF7360] flex items-center gap-2 shadow-xl"
-                      >
-                        <span className="w-2 h-2 rounded-full bg-[#FF7360] animate-ping" />
-                        <span>Most severe in Ideation & Design</span>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
                 </div>
               </div>
 
@@ -246,7 +231,7 @@ export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step })
                   <div className="space-y-1.5">
                     <div className="flex justify-between text-xs font-mono">
                       <span className={step >= 1 ? "text-[#D5C9B8]" : "text-[#7E7264]"}>
-                        Individual Polish (Grammar, Formatting, Execution)
+                        Individual Polish
                       </span>
                       <span className={step >= 1 ? "text-[#34D399] font-bold" : "text-[#7E7264]"}>
                         {step >= 1 ? "+38% Cleanliness" : "0% (Baseline)"}
@@ -265,7 +250,7 @@ export const Slide03_CollectiveHomogenization: React.FC<SlideProps> = ({ step })
                   <div className="space-y-1.5">
                     <div className="flex justify-between text-xs font-mono">
                       <span className={step >= 1 ? "text-[#FDFBF7] font-bold" : "text-[#7E7264]"}>
-                        Collective Design Diversity (Idea Variance)
+                        Collective Design Diversity
                       </span>
                       <span className={step >= 1 ? "text-[#FF7360] font-bold" : "text-[#7E7264]"}>
                         {step >= 1 ? "-70% Collapse (d = 0.70)" : "100% (Normal Variance)"}

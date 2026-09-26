@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { RetroIllustrationFrame } from '../components/RetroIllustrationFrame';
-import { Bot, User, FileText, Layers, Sparkles, ArrowRight, Quote, Zap } from 'lucide-react';
+import { Ambient3DBackground } from '../components/Ambient3DBackground';
+import { Bot, User, FileText, Layers, Sparkles, ArrowRight } from 'lucide-react';
 
 interface SlideProps {
   step: number;
@@ -9,8 +10,8 @@ interface SlideProps {
 
 export const Slide02_AutopilotFlow: React.FC<SlideProps> = ({ step }) => {
   return (
-    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#12100E]">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(61,126,166,0.12),transparent_70%)] pointer-events-none" />
+    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#100E0C]">
+      <Ambient3DBackground variant={3} />
 
       {/* Main Grid */}
       <div className="relative z-10 w-full max-w-6xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -21,11 +22,6 @@ export const Slide02_AutopilotFlow: React.FC<SlideProps> = ({ step }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="text-xs font-mono uppercase tracking-widest text-[#3D7EA6] mb-3 flex items-center gap-1.5 font-semibold">
-              <Bot className="w-3.5 h-3.5" />
-              ACT I • THE ARTIFACT TRAP
-            </div>
-
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-4">
               The 'Autopilot' <br />
               <span className="text-[#E59A2F] italic">Flow.</span>
@@ -59,12 +55,9 @@ export const Slide02_AutopilotFlow: React.FC<SlideProps> = ({ step }) => {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    className="text-base md:text-lg text-[#FFA499] font-mono border-l-2 border-[#C83E2D] pl-3 space-y-1"
+                    className="text-base md:text-lg text-[#FFA499] font-mono border-l-2 border-[#C83E2D] pl-3 py-1"
                   >
                     <div className="font-bold text-[#FDFBF7]">"The user does not care about your process artifacts."</div>
-                    <div className="text-xs text-[#E59A2F]">
-                      They only care about the end experience they see and feel.
-                    </div>
                   </motion.div>
                 )}
 
@@ -95,10 +88,10 @@ export const Slide02_AutopilotFlow: React.FC<SlideProps> = ({ step }) => {
               {/* Minimal Flow Nodes (No Box-in-Box) */}
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                 {[
-                  { label: "Fake Persona", sub: "Stock photo & bio", icon: User },
-                  { label: "Journey Map", sub: "Linear curves", icon: FileText },
-                  { label: "How Might We", sub: "Sticky notes", icon: Layers },
-                  { label: "50 Wireframes", sub: "Instant AI layouts", icon: Sparkles }
+                  { label: "Fake Persona", icon: User },
+                  { label: "Journey Map", icon: FileText },
+                  { label: "How Might We", icon: Layers },
+                  { label: "50 Wireframes", icon: Sparkles }
                 ].map((stage, idx) => {
                   const Icon = stage.icon;
                   const isDimmed = step === 1;
@@ -113,7 +106,6 @@ export const Slide02_AutopilotFlow: React.FC<SlideProps> = ({ step }) => {
                         <Icon className="w-5 h-5" />
                       </div>
                       <span className="text-xs font-mono font-medium text-[#FDFBF7]">{stage.label}</span>
-                      <span className="text-[10px] font-mono text-[#8E8375] mt-0.5">{stage.sub}</span>
 
                       {idx < 3 && (
                         <div className="hidden sm:block absolute -right-3 top-5 text-[#54483D]">
@@ -190,28 +182,9 @@ export const Slide02_AutopilotFlow: React.FC<SlideProps> = ({ step }) => {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
                       transition={{ duration: 0.3 }}
-                      className="pt-4 border-t border-[#E59A2F]/40 space-y-3"
+                      className="pt-4 border-t border-[#E59A2F]/40"
                     >
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-mono">
-                        <div>
-                          <div className="text-[#34D399] font-bold flex items-center gap-1.5 mb-1">
-                            <Zap className="w-3.5 h-3.5" /> ANYONE + AI VIBE-CODING
-                          </div>
-                          <p className="text-[#D0C5B4] text-[11px] leading-relaxed">
-                            Functional interactive prototype in 60 seconds flat.
-                          </p>
-                        </div>
-                        <div>
-                          <div className="text-[#FFA499] font-bold mb-1">
-                            CHECKLIST UX
-                          </div>
-                          <p className="text-[#8E8375] text-[11px] leading-relaxed">
-                            Weeks of process theater rendered obsolete.
-                          </p>
-                        </div>
-                      </div>
-
-                      <div className="text-xs font-mono text-[#FDFBF7] pt-2 border-t border-[#261E18] font-bold flex items-center gap-1.5">
+                      <div className="text-xs sm:text-sm font-mono text-[#FDFBF7] font-bold flex items-center gap-1.5">
                         <span className="text-[#E59A2F]">→</span>
                         <span>If our only value is following a checklist, we are automated away.</span>
                       </div>

@@ -7,20 +7,20 @@
 * **Target Duration:** 30 Minutes
 * **Language Tone:** Warm, highly conversational, relatable, and slightly self-deprecating. Simple language that everyone can relate to, avoiding heavy academic jargon.
 * **Slide Style:** Visual-first, high-impact, and extremely minimal. Minimal text on screen (no paragraphs, just striking phrases or bold words).
-* **Core Framework:** **The E vs. D Frontier**—Execution (E) vs. Discernment (D) [158]. 
+* **Core Framework:** **The E vs. D Frontier**—Execution (E) vs. Decision (D) [158]. 
 * **The Keynote Arc:** 
   1. *The Confession:* A funny opening connecting the UX India invitation to our automated temptations.
   2. *The Speaker:* Sujit Pradhan—coder turned designer, agentic ecosystems at Google, manual craft.
   3. *The Mirage:* How "Design Automated" actually looks today and how we got hooked.
   4. *The Crash:* The proven collective homogenization effect and cognitive rot.
   5. *The Forklift:* Dr. Doshi's study, cognitive offloading, core vs. non-core.
-  6. *The Frontier:* Execution (E) vs. Discernment (D).
+  6. *The Frontier:* Execution (E) vs. Decision (D).
   7. *The Boundary:* Necessary vs. toxic automation (Should Automate vs. Must Drive).
   8. *The Proof:* Designing for Calibrated Trust (Google Flights case study).
   9. *The Superpower:* The Ultimate Ironic Mirror—why thinking is our un-automatable advantage.
-  10. *The Outliers:* Opinionated Design (Claude Artifacts, Cash App, Rick Rubin).
-  11. *The Roadmap:* Three Rules for Tomorrow & the Closing Question.
-  12. *The Finale:* Thank You & Connect (Prompt the Human, Linktree).
+  10. *The Roadmap:* Three Rules for Tomorrow & the Closing Question.
+  11. *The Finale:* Thank You & Connect (Prompt the Human, Linktree).
+  12. *Feedback:* Questions & Feedback QR.
 
 ---
 
@@ -55,7 +55,7 @@ So today, we are going to look into that exact mirror [114]. We are going to tal
 ## SLIDE 2: Sujit Pradhan (Speaker Intro) (3:00 - 5:00)
 
 ### Visual Direction
-Sujit's 3D clay Van Gogh Starry Night portrait framed inside an architectural blueprint drafting schematic with animated precision registration marks and dimension calipers.
+Sujit's 3D clay Van Gogh Starry Night portrait framed inside an architectural blueprint drafting schematic with animated precision dimension calipers.
 
 ### Slide Content
 > **Sujit Pradhan.**  
@@ -67,7 +67,7 @@ Sujit's 3D clay Van Gogh Starry Night portrait framed inside an architectural bl
 
 I started in Computer Science, broke production builds, and quickly realized humans are far more interesting than compiler logs.
 
-Off-screen, I'm an obsessive Lego builder and sneaker collector. Snapping bricks by hand reminds me that tactile, human discernment can never be automated. That conviction is why we are having this conversation today."
+Off-screen, I'm an obsessive Lego builder and sneaker collector. Snapping bricks by hand reminds me that tactile, human judgment can never be automated. That conviction is why we are having this conversation today."
 
 ---
 
@@ -139,14 +139,14 @@ Dr. Anil Doshi at the University of Westminster ran a fascinating experiment [37
 
 The results were a perfect mirror of our current reality [114]. The stories written with AI ideas were rated as more creative on an individual basis [372]. But collectively, **they all looked eerily like one another** [372]. The writers became less original, less unique, and *less themselves* [372]. They traded their individual identity for algorithmic convenience [158, 373].
 
-This is what scientists call **'cognitive offloading'** [431]. When you let AI do the initial ideation, you are letting your creative muscles atrophy [437]. 
+This is what scientists call **'cognitive offloading'** [431]. When you let AI do the initial ideation, you are letting your creative muscles weaken [437]. 
 
 Dr. Doshi gave some incredible advice about this [370]. He said: when you face a task, you must ask yourself one critical question: **Is this task core to who I am, who I want to be, or the value I bring to the world?** [373, 374]
 
 * If the answer is **No**—if it's not core—use AI to *substitute* your effort [374]. (For example, I am not a professional tax accountant, so I let AI format my expenses) [348, 374].
 * But if the answer is **Yes**—if it is core to your craft, your thinking, your strategy—you must use AI only to *complement* your effort, never to replace it [374, 376]. 
 
-If you ask an AI to write your design strategy, draft your user insights, or generate your product concepts from scratch, you have just brought a forklift to the gym [375, 441]. The forklift is incredibly strong and fast [385], but you are not getting any stronger [353]. Your critical thinking muscles begin to atrophy [657]. 
+If you ask an AI to write your design strategy, draft your user insights, or generate your product concepts from scratch, you have just brought a forklift to the gym [375, 441]. The forklift is incredibly strong and fast [385], but you are not getting any stronger [353]. Your critical thinking muscles begin to weaken [657]. 
 
 Renting out your brain is the true threat [431, 437]. If we stop doing the hard work of thinking, we become entirely replaceable [437]. The biggest fear in tech isn't that AI will steal our jobs; it’s that we are voluntarily giving away the one thing that makes us un-replaceable: our active human judgment [146, 513, 662]."
 
@@ -155,30 +155,30 @@ Renting out your brain is the true threat [431, 437]. If we stop doing the hard 
 ## SLIDE 6: The E vs. D Frontier (14:00 - 17:00)
 
 ### Visual Direction
-A bold, graphic contrast. A solid, deep-blue section on the left labeled **"EXECUTION (E)"** with a wrench icon, and a glowing, bright-gold section on the right labeled **"DISCERNMENT (D)"** with a compass icon [158].
+A 6-axis radar chart comparing Machine Execution (E) against Human Decision (D) & Judgment.
 
 ### Slide Content
-> **Execution (E) vs. Discernment (D)**  
+> **Execution (E) vs. Decision (D)**  
 > *Let the machine execute. Protect the judgment.* [145, 146, 158]
 
 ### Speaker Script & Talking Points
 "So how do we draw the line? [158] How do we know what to automate and what to drive? [16, 184] We use a framework called **The E vs. D Frontier** [158].
 
 * **Execution (E)** is the *making* [145]. It is the mechanical, high-friction, repetitive work of design [158]. It’s naming Figma layers [485], coding a layout variation [141], localizing a screen into thirty languages [10], or converting a sketch into a vector [141]. 
-* **Discernment (D)** is the *choosing* [145]. It is taste [149]. It is intuition [457, 463]. It is empathy [98, 117]. It is systems thinking [546, 558]. It is understanding the emotional and cultural context of *why* a design matters [395, 403].
+* **Decision (D)** is the *choosing and judgment* [145]. It is taste [149]. It is intuition [457, 463]. It is empathy [98, 117]. It is systems thinking [546, 558]. It is understanding the emotional and cultural context of *why* a design matters [395, 403].
 
 AI is an absolute beast at **Execution** [141, 145]. It can generate fifty layouts in three seconds [385]. If your value as a designer is just 'Execution'—if you are being paid for the speed of your cursor—you are trying to outrun a machine [145, 401]. You will lose [402].
 
-But AI is utterly blind when it comes to **Discernment** [146, 525]. A machine does not have a body [323]. It does not have feelings [117, 330]. It has never experienced joy, shame, or grief [477]. It can generate a thousand variations of a screen, but it has no idea if that screen actually means something to a human being [395, 404].
+But AI is utterly blind when it comes to **Decision and human judgment** [146, 525]. A machine does not have a body [323]. It does not have feelings [117, 330]. It has never experienced joy, shame, or grief [477]. It can generate a thousand variations of a screen, but it has no idea if that screen actually means something to a human being [395, 404].
 
-Just like compilers in the 1950s freed programmers from machine code to architect higher-level systems [104], automating Execution frees us to fiercely protect Discernment [145, 158]."
+Just like compilers in the 1950s freed programmers from machine code to architect higher-level systems [104], automating Execution frees us to fiercely protect Decision [145, 158]."
 
 ---
 
 ## SLIDE 7: What to Automate vs. What to Drive (17:00 - 20:00)
 
 ### Visual Direction
-A clean, contrasting matrix. Column 1: **"Should Automate (Execution)"** with light icons of tokens, research repositories, and boilerplate code. Column 2: **"Must Drive (Discernment)"** with glowing icons of root human need, empathy, and strategic intent.
+A clean, contrasting matrix. Column 1: **"Should Automate (Execution)"** with light icons of tokens, research repositories, and boilerplate code. Column 2: **"Must Drive (Decision)"** with glowing icons of root human need, empathy, and strategic intent.
 
 ### Slide Content
 > **Automating the outcome is toxic.**  
@@ -228,7 +228,7 @@ That is **Calibrated Trust**: AI provides leverage, but the human retains agency
 ## SLIDE 9: The Ultimate Ironic Mirror (23:00 - 26:00)
 
 ### Visual Direction
-Whimsical retro visual: sleek futuristic robot holding sign with a human designer smiling. Contrasted with reflections: $100B compute simulation vs lived human experience.
+Hero mirror reflection visual contrasting $100B compute simulation vs lived human experience.
 
 ### Slide Content
 > **The Ultimate Ironic Mirror**  
@@ -251,31 +251,7 @@ And the soul of great design sits right in that unmappable human empathy and liv
 
 ---
 
-## SLIDE 10: Opinionated Design (26:00 - 28:00)
-
-### Visual Direction
-Split visual: Anthropic Claude Artifacts live sidebar vs Cash App tactile Tortoise-shell bank card and bold green brand system.
-
-### Slide Content
-> **Opinionated Design**  
-> *Taste is your only true moat.* [149, 155]
-
-### Speaker Script & Talking Points
-"What does it look like when we actively choose *not* to trust the automated process, and instead trust our own intuition and taste? [454, 473]
-
-Look at **Claude Artifacts** at Anthropic [458]. They didn't follow a standard 5-step problem-statement checklist [457, 458]. A researcher built a raw, ugly prototype opening a sidebar panel to run code [458]. Designer Michael trusted his instinct and ran with it [458, 459], fundamentally transforming how humanity interacts with AI.
-
-Look at **Cash App** [146]. Almost every debit card is cheap anonymous flat plastic [153]. Every banking screen is a sterile utility form [154]. But Cam Worboys and his team had a deep human opinion [153, 155]. They asked: *'What if a debit card was an act of personal expression?'* [153] 
-
-They crafted the tactile Tortoise shell card, glitter bases, and hot pink cards [153]. They designed interactions that intentionally take *more clicks*, defying standard UX dogmas, and customers loved it [154, 155]. 
-
-Rick Rubin once said: *'You are being paid for the confidence you have in your taste.'* [149] 
-
-In a world where anyone can prompt a layout in ten seconds [141, 145], polite automated wireframes are worthless [143, 451]. Taste is your differentiator [149, 155]."
-
----
-
-## SLIDE 11: Three Rules for Tomorrow (28:00 - 30:00)
+## SLIDE 10: Three Rules for Tomorrow (26:00 - 28:00)
 
 ### Visual Direction
 Three large illuminated typographic pillars labeled 1, 2, and 3 with clear action mantras, leading into the keynote closing question.
@@ -284,7 +260,7 @@ Three large illuminated typographic pillars labeled 1, 2, and 3 with clear actio
 > **Three Rules for Tomorrow**  
 > 1. **Compete on meaning.** Never compete on volume or cursor speed. [385, 401]  
 > 2. **Productive resistance.** Treat AI as a provocative sparring partner. [158, 439]  
-> 3. **Keep the brain active.** Validate before confident; preserve discernment. [346, 431]
+> 3. **Keep the brain active.** Validate before confident; preserve human judgment. [346, 431]
 
 ### Speaker Script & Talking Points
 "How do we start practicing **Design Un-automated** tomorrow morning? [157, 165] We follow three rules:
@@ -303,7 +279,7 @@ Thank you so much! [378, 479]"
 
 ---
 
-## SLIDE 12: Thank You & Connect (30:00+)
+## SLIDE 11: Thank You & Connect (28:00 - 30:00)
 
 ### Visual Direction
 Warm retro studio background, holographic QR code connect device with animated laser scanner, and interactive link copy button.

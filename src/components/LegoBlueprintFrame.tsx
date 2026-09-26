@@ -70,28 +70,6 @@ export const LegoBlueprintFrame: React.FC = () => {
           })}
         </g>
 
-        {/* --- Corner Registration Targets with Subtle Pulse --- */}
-        {[
-          { cx: 24, cy: 24 },
-          { cx: 376, cy: 24 },
-          { cx: 24, cy: 476 },
-          { cx: 376, cy: 476 }
-        ].map((target, idx) => (
-          <g key={`reg-${idx}`}>
-            <circle cx={target.cx} cy={target.cy} r="9" stroke="#255D96" strokeWidth="1" strokeDasharray="3 2" />
-            <line x1={target.cx - 13} y1={target.cy} x2={target.cx + 13} y2={target.cy} stroke="#388BFD" strokeWidth="1" />
-            <line x1={target.cx} y1={target.cy - 13} x2={target.cx} y2={target.cy + 13} stroke="#388BFD" strokeWidth="1" />
-            <motion.circle 
-              cx={target.cx} 
-              cy={target.cy} 
-              r="2" 
-              fill="#38BDF8"
-              animate={{ opacity: [0.2, 0.8, 0.2], scale: [1, 1.3, 1] }}
-              transition={{ duration: 3, repeat: Infinity, delay: idx * 0.5, ease: 'easeInOut' }}
-            />
-          </g>
-        ))}
-
         {/* --- Center Datum & Alignment Lines --- */}
         <line x1="200" y1="16" x2="200" y2="484" stroke="#388BFD" strokeWidth="1" strokeDasharray="10 4 2 4" opacity="0.3" />
         <line x1="16" y1="230" x2="384" y2="230" stroke="#388BFD" strokeWidth="1" strokeDasharray="10 4 2 4" opacity="0.3" />
@@ -222,7 +200,7 @@ export const LegoBlueprintFrame: React.FC = () => {
         </g>
       </svg>
 
-      {/* 4. Central Avatar Photo with Glowing Precision Crosshairs & Corner HUD Brackets */}
+      {/* 4. Central Avatar Photo with Glowing Precision Frame */}
       <div className="relative z-20 w-56 h-56 sm:w-60 sm:h-60 flex items-center justify-center">
         {/* Animated Pulsing Blueprint Frame */}
         <motion.div
@@ -237,18 +215,6 @@ export const LegoBlueprintFrame: React.FC = () => {
           transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
           className="relative w-full h-full rounded-2xl overflow-hidden border-2 bg-[#0E1724]"
         >
-          {/* Animated Precision Corner L-Brackets */}
-          <motion.div 
-            animate={{ scale: [1, 1.06, 1], opacity: [0.8, 1, 0.8] }}
-            transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
-            className="absolute inset-0 pointer-events-none z-20"
-          >
-            <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#E59A2F]" />
-            <div className="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-[#E59A2F]" />
-            <div className="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-[#E59A2F]" />
-            <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#E59A2F]" />
-          </motion.div>
-
           {/* Van Gogh Clay Avatar Photo */}
           <img
             src={sujitAvatarImg}

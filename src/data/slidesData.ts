@@ -24,7 +24,7 @@ export const SLIDES_DATA: SlideMeta[] = [
     ],
     speakerScript: "Hello, everyone! It is an absolute privilege to stand here on this stage at UX India. Look around the room—we have an incredible, diverse community of creators here today. But before we dive into the deep philosophical questions of our craft, I have a small story to talk about.\n\nA few months ago, I saw this submission for UX India speaker topics. And then, I did what any modern, tired tech worker does: I dumped a messy scratchpad into Gemini and typed: 'Translate this mess into a professional, high-concept keynote paper.' In seconds, it spit out dozens of titles, polished outlines, and rich content. For a second, it felt like a superpower.\n\nBut then, I realized I had just fallen headfirst into the exact trap I wanted to warn you about. I had outsourced my own reason. But had I turned myself into an intellectual tourist in my own talk, visiting these slides instead of inhabiting them?\n\nSo today, we are going to look into that exact mirror: what happens when we automate design completely, what we lose when machines do the thinking, and how we reclaim our actual superpower.",
     keyTakeaway: "When you outsource the thinking, you become a tourist in your own creation.",
-    stepsCount: 3
+    stepsCount: 1
   },
   {
     id: 2,
@@ -46,7 +46,7 @@ export const SLIDES_DATA: SlideMeta[] = [
       "CS engineering background from KIIT, defected to UX for human empathy.",
       "Believer in tactile craft: off-screen Lego builder and sneaker collector."
     ],
-    speakerScript: "I'm Sujit Pradhan. Right now, I design Agentic enterprise ecosystems at Google, following design journeys across Microsoft, Amazon, ONN Bikes, and Incture Technologies.\n\nI started in Computer Science, broke production builds, and quickly realized humans are far more interesting than compiler logs.\n\nOff-screen, I'm an obsessive Lego builder and sneaker collector. Snapping bricks by hand reminds me that tactile, human discernment can never be automated. That conviction is why we are having this conversation today.",
+    speakerScript: "I'm Sujit Pradhan. Right now, I design Agentic enterprise ecosystems at Google, following design journeys across Microsoft, Amazon, ONN Bikes, and Incture Technologies.\n\nI started in Computer Science, broke production builds, and quickly realized humans are far more interesting than compiler logs.\n\nOff-screen, I'm an obsessive Lego builder and sneaker collector. Snapping bricks by hand reminds me that tactile, human judgment can never be automated. That conviction is why we are having this conversation today.",
     keyTakeaway: "A coder-turned-designer who believes manual craft and taste cannot be automated.",
     stepsCount: 1
   },
@@ -117,37 +117,37 @@ export const SLIDES_DATA: SlideMeta[] = [
     talkingPoints: [
       "Dr. Anil Doshi's study with 300 sci-fi writers.",
       "AI-assisted stories scored higher individually, but looked eerily identical collectively.",
-      "Cognitive Offloading: creative muscles atrophying under algorithmic convenience.",
+      "Cognitive Offloading: creative muscles weakening under algorithmic convenience.",
       "The Golden Filter: Is this task CORE to who I am and the value I bring?",
       "Non-core: Substitute (expenses, formatting). Core: Complement, NEVER replace."
     ],
-    speakerScript: "To understand how we escape 'The Blur', we must look at how we use these tools on ourselves. Dr. Anil Doshi gave 300 writers AI-generated ideas for sci-fi short stories. The AI stories were rated more creative individually, but collectively they looked eerily identical. Writers traded individual voice for algorithmic convenience.\n\nThis is 'cognitive offloading'. Dr. Doshi advises asking one critical question: 'Is this task core to who I am, who I want to be, or the value I bring to the world?'\n\nIf the answer is NO, it is not core, use AI to substitute your effort (like formatting expenses). But if the answer is YES, it is core to your craft, strategy, and thinking, you must use AI ONLY to complement your effort, never to replace it.\n\nIf you ask AI to write your design strategy or generate your product concepts from scratch, you brought a forklift to the gym. The forklift is fast and strong, but you aren't getting any stronger. Your critical thinking muscles begin to atrophy.",
+    speakerScript: "To understand how we escape 'The Blur', we must look at how we use these tools on ourselves. Dr. Anil Doshi gave 300 writers AI-generated ideas for sci-fi short stories. The AI stories were rated more creative individually, but collectively they looked eerily identical. Writers traded individual voice for algorithmic convenience.\n\nThis is 'cognitive offloading'. Dr. Doshi advises asking one critical question: 'Is this task core to who I am, who I want to be, or the value I bring to the world?'\n\nIf the answer is NO, it is not core, use AI to substitute your effort (like formatting expenses). But if the answer is YES, it is core to your craft, strategy, and thinking, you must use AI ONLY to complement your effort, never to replace it.\n\nIf you ask AI to write your design strategy or generate your product concepts from scratch, you brought a forklift to the gym. The forklift is fast and strong, but you aren't getting any stronger. Your critical thinking muscles begin to weaken.",
     keyTakeaway: "Non-Core: Substitute. Core: Complement. Bringing a forklift to the gym builds zero muscle.",
     stepsCount: 3
   },
   {
     id: 6,
     slideNumber: "06",
-    slug: "execution-vs-discernment",
-    title: "Execution (E) vs. Discernment (D)",
-    themePhrase: "Execution (E) vs. Discernment (D)",
+    slug: "execution-vs-decision",
+    title: "Execution (E) vs. Decision (D)",
+    themePhrase: "Execution (E) vs. Decision (D)",
     subtitle: "Let the machine execute. Protect the judgment.",
     timeRange: "14:00 - 17:00",
     targetMinutes: 3,
     badge: "ACT III • THE FRONTIER",
     citations: ["[145]", "[146]", "[158]", "[401]"],
-    visualDirection: "Graphic split: Solid deep navy 'EXECUTION (E)' with mechanical wrench vs glowing terracotta-gold 'DISCERNMENT (D)' with navigational compass.",
-    mainQuote: "Execution (E) vs. Discernment (D)",
+    visualDirection: "Graphic split: Solid deep navy 'EXECUTION (E)' with mechanical wrench vs glowing terracotta-gold 'DECISION (D)' with navigational compass.",
+    mainQuote: "Execution (E) vs. Decision (D)",
     subQuote: "Let the machine execute. Protect the judgment.",
     talkingPoints: [
       "Execution (E) is the Making: mechanical, repetitive, naming layers, converting vectors, layout variations.",
-      "Discernment (D) is the Choosing: taste, empathy, intuition, systems thinking, cultural context.",
+      "Decision (D) is the Choosing & Judgment: taste, empathy, intuition, systems thinking, cultural context.",
       "AI is a beast at Execution (50 screens in 3s). Competing on cursor speed is a losing game.",
-      "AI is utterly blind at Discernment: no body, no lived experience, never felt joy, shame, or grief.",
+      "AI is utterly blind at Decision: no body, no lived experience, never felt joy, shame, or grief.",
       "Historical parallel: 1950s compiler introduction freed programmers to architect systems."
     ],
-    speakerScript: "So how do we draw the line? We use a framework called The E vs. D Frontier.\n\nExecution (E) is the making. It is the mechanical, high-friction, repetitive work: naming Figma layers, coding layout variations, localizing screens into thirty languages. Discernment (D) is the choosing. It is taste, intuition, empathy, systems thinking, and understanding the emotional and cultural context of WHY a design matters.\n\nAI is an absolute beast at Execution. It can generate fifty layouts in three seconds. If your value is just Execution, if you are paid for the speed of your cursor, you are trying to outrun a machine. You will lose.\n\nBut AI is utterly blind when it comes to Discernment. A machine does not have a body. It has never experienced joy, shame, or grief. It can generate a thousand screen variations, but it has no idea if that screen actually means something to a human being. Just like compilers in the 1950s freed programmers from machine code to architect higher-level systems, automating Execution frees us to fiercely protect Discernment.",
-    keyTakeaway: "Execution is mechanical making (automate it). Discernment is human choosing (protect it).",
+    speakerScript: "So how do we draw the line? We use a framework called The E vs. D Frontier.\n\nExecution (E) is the making. It is the mechanical, high-friction, repetitive work: naming Figma layers, coding layout variations, localizing screens into thirty languages. Decision (D) is the choosing and judgment. It is taste, intuition, empathy, systems thinking, and understanding the emotional and cultural context of WHY a design matters.\n\nAI is an absolute beast at Execution. It can generate fifty layouts in three seconds. If your value is just Execution, if you are paid for the speed of your cursor, you are trying to outrun a machine. You will lose.\n\nBut AI is utterly blind when it comes to Decision and human judgment. A machine does not have a body. It has never experienced joy, shame, or grief. It can generate a thousand screen variations, but it has no idea if that screen actually means something to a human being. Just like compilers in the 1950s freed programmers from machine code to architect higher-level systems, automating Execution frees us to fiercely protect Decision.",
+    keyTakeaway: "Execution is mechanical making (automate it). Decision is human choosing and judgment (protect it).",
     stepsCount: 3
   },
   {
@@ -161,7 +161,7 @@ export const SLIDES_DATA: SlideMeta[] = [
     targetMinutes: 3,
     badge: "ACT III • THE FRONTIER",
     citations: ["[16]", "[98]", "[151]", "[546]"],
-    visualDirection: "Clean contrasting matrix: Column 1 'Should Automate (Execution)' vs Column 2 'Must Drive (Discernment)'.",
+    visualDirection: "Clean contrasting matrix: Column 1 'Should Automate (Execution)' vs Column 2 'Must Drive (Decision)'.",
     mainQuote: "Automating the outcome is toxic.",
     subQuote: "Driving the outcome is design un-automated.",
     talkingPoints: [
@@ -228,36 +228,11 @@ export const SLIDES_DATA: SlideMeta[] = [
   {
     id: 10,
     slideNumber: "10",
-    slug: "opinionated-design",
-    title: "Opinionated Design",
-    themePhrase: "Opinionated Design",
-    subtitle: "Taste is your only true moat.",
-    timeRange: "26:00 - 28:00",
-    targetMinutes: 2,
-    badge: "ACT V • THE SUPERPOWER",
-    citations: ["[149]", "[153]", "[155]", "[458]"],
-    visualDirection: "Split visual: Anthropic Claude Artifacts live sidebar vs Cash App tactile Tortoise-shell bank card and bold green brand system.",
-    mainQuote: "Opinionated Design",
-    subQuote: "Taste is your only true moat.",
-    talkingPoints: [
-      "Claude Artifacts (Anthropic): Bypassed standard 5-step checklist; Michael trusted intuition on a raw prototype.",
-      "Cash App (Cam Worboys): Defied sterile fintech tropes with tactile Tortoise card, glitter bases, deliberate extra clicks.",
-      "Efficiency metrics recommended standard flat gray; human taste delivered an iconic cultural symbol.",
-      "Rick Rubin: 'You are being paid for the confidence you have in your taste.'",
-      "When everyone can prompt 10 layouts in seconds, taste is your only strategic moat."
-    ],
-    speakerScript: "What does it look like when we actively choose not to trust the automated process, and instead trust intuition and taste?\n\nLook at Claude Artifacts at Anthropic. They didn't follow a rigid checklist. A researcher built a raw, ugly prototype opening a sidebar panel to run code. Designer Michael trusted his instinct and ran with it, fundamentally transforming how humanity interacts with AI.\n\nLook at Cash App. Almost every debit card is cheap anonymous flat plastic. Every banking screen is a sterile utility form. But Cam Worboys and his team asked: 'What if a debit card was an act of personal expression?' They crafted the tactile Tortoise shell card, glitter bases, and hot pink cards. They designed interactions that intentionally take MORE clicks, defying standard UX dogmas, and customers loved it.\n\nRick Rubin said: 'You are being paid for the confidence you have in your taste.' In a world where anyone can prompt a layout in ten seconds, polite automated wireframes are worthless. Taste is your differentiator.",
-    keyTakeaway: "Sterile efficiency is a commodity. Taste, opinion, and visceral craft are uncopyable.",
-    stepsCount: 3
-  },
-  {
-    id: 11,
-    slideNumber: "11",
     slug: "reclaiming-the-wheel",
     title: "Three Rules for Tomorrow",
     themePhrase: "Three Rules for Tomorrow",
     subtitle: "Practicing design un-automated.",
-    timeRange: "28:00 - 30:00",
+    timeRange: "26:00 - 28:00",
     targetMinutes: 2,
     badge: "ACT VI • THE ROADMAP",
     citations: ["[346]", "[368]", "[401]", "[439]"],
@@ -276,13 +251,13 @@ export const SLIDES_DATA: SlideMeta[] = [
     stepsCount: 4
   },
   {
-    id: 12,
-    slideNumber: "12",
+    id: 11,
+    slideNumber: "11",
     slug: "thank-you",
     title: "Thank You & Connect",
     themePhrase: "Prompt the Human",
     subtitle: "Prompt the human, not just the machine.",
-    timeRange: "30:00+",
+    timeRange: "28:00 - 30:00",
     targetMinutes: 2,
     badge: "FINALE • CONNECT",
     citations: ["Google", "UX India 2026", "Linktree"],
@@ -296,12 +271,12 @@ export const SLIDES_DATA: SlideMeta[] = [
       "Remember: never bring a forklift to the gym. Stay in the driver's seat."
     ],
     speakerScript: "Thank you so much, UX India! It has been an absolute honor. If there is one thing to take away from our time together: prompt the human, not just the machine. Scan the QR code on the screen to connect, grab a coffee, or debate the future of agentic UX. Have a wonderful rest of the conference!",
-    keyTakeaway: "Prompt the human, not just the machine. Keep human discernment at the center.",
+    keyTakeaway: "Prompt the human, not just the machine. Keep human judgment at the center.",
     stepsCount: 2
   },
   {
-    id: 13,
-    slideNumber: "13",
+    id: 12,
+    slideNumber: "12",
     slug: "feedback",
     title: "Questions & Feedback",
     themePhrase: "Questions & Feedback",

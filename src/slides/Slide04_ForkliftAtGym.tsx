@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { RetroIllustrationFrame } from '../components/RetroIllustrationFrame';
-import { Dumbbell, Truck, Brain, CheckCircle2, XCircle } from 'lucide-react';
+import { Ambient3DBackground } from '../components/Ambient3DBackground';
+import { Dumbbell, Truck } from 'lucide-react';
 
 interface SlideProps {
   step: number;
@@ -9,8 +10,8 @@ interface SlideProps {
 
 export const Slide04_ForkliftAtGym: React.FC<SlideProps> = ({ step }) => {
   return (
-    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#12100E]">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_70%,rgba(229,154,47,0.1),transparent_60%)] pointer-events-none" />
+    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#100E0C]">
+      <Ambient3DBackground variant={5} />
 
       {/* Main Grid */}
       <div className="relative z-10 w-full max-w-6xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -21,17 +22,12 @@ export const Slide04_ForkliftAtGym: React.FC<SlideProps> = ({ step }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="text-xs font-mono uppercase tracking-widest text-[#E59A2F] mb-3 flex items-center gap-1.5 font-semibold">
-              <Brain className="w-3.5 h-3.5" />
-              COGNITIVE OFFLOADING
-            </div>
-
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-4">
               The Forklift <br />
               <span className="text-[#E59A2F] italic">at the Gym.</span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-[#D0C5B4] font-light mb-6">
+            <p className="text-lg md:text-xl text-[#D0C5B4] font-light mb-6 whitespace-nowrap">
               You don't build muscle by watching a machine lift.
             </p>
 
@@ -58,7 +54,7 @@ export const Slide04_ForkliftAtGym: React.FC<SlideProps> = ({ step }) => {
                     exit={{ opacity: 0, y: -10 }}
                     className="text-base md:text-lg text-[#FFA499] font-mono border-l-2 border-[#C83E2D] pl-3"
                   >
-                    The machine is fast and strong, but your critical thinking muscles begin to atrophy.
+                    The machine is fast and strong, but your critical thinking muscles begin to weaken.
                   </motion.div>
                 )}
 
@@ -81,14 +77,14 @@ export const Slide04_ForkliftAtGym: React.FC<SlideProps> = ({ step }) => {
         {/* Right Column: Clean & Minimal Visual Contrast */}
         <div className="lg:col-span-6 flex flex-col justify-center">
           <RetroIllustrationFrame variant="dark">
-            <div className="space-y-4 p-2">
+            <div className="p-2">
               {/* Top Split: Doing the Reps vs Cognitive Offload */}
               <div className="grid grid-cols-2 gap-4">
                 {/* Doing the Reps */}
                 <motion.div
                   animate={{
-                    borderColor: step === 0 || step === 2 ? '#2E6F40' : '#38302A',
-                    backgroundColor: step === 0 || step === 2 ? '#16221A' : '#14110F',
+                    borderColor: step === 0 ? '#2E6F40' : '#38302A',
+                    backgroundColor: step === 0 ? '#16221A' : '#14110F',
                     opacity: step === 1 ? 0.5 : 1,
                   }}
                   transition={{ duration: 0.35 }}
@@ -137,62 +133,9 @@ export const Slide04_ForkliftAtGym: React.FC<SlideProps> = ({ step }) => {
                       ? 'bg-[#C83E2D] text-white border-[#FF7360]'
                       : 'bg-[#C83E2D]/20 text-[#FFA499] border-[#C83E2D]/40'
                   }`}>
-                    ATROPHY
+                    WEAKENS MUSCLE
                   </div>
                 </motion.div>
-              </div>
-
-              {/* Bottom: Progressive Framework (Spacious & Clean) */}
-              <div className="min-h-[108px] flex items-center">
-                <AnimatePresence mode="wait">
-                  {step < 2 ? (
-                    <motion.div
-                      key="teaser"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                      className="w-full p-4 rounded-xl border border-dashed border-[#38302A] text-center"
-                    >
-                      <p className="text-xs font-mono text-[#8E8375]">
-                        {step === 0 
-                          ? "Focus: The physical resistance of craft creates intuition" 
-                          : "Warning: Unmonitored cognitive offload erodes creative judgment"}
-                      </p>
-                    </motion.div>
-                  ) : (
-                    <motion.div
-                      key="framework"
-                      initial={{ opacity: 0, y: 12 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -12 }}
-                      transition={{ duration: 0.4 }}
-                      className="w-full p-4 rounded-xl bg-[#181412] border border-[#E59A2F]/40 space-y-3"
-                    >
-                      <div className="text-xs font-mono text-[#E59A2F] font-bold flex items-center justify-between">
-                        <span>THE DECISIVE QUESTION: "IS THIS TASK CORE?"</span>
-                        <span className="text-[10px] text-[#34D399]">FRAMEWORK</span>
-                      </div>
-                      <div className="grid grid-cols-2 gap-3 text-xs font-mono">
-                        <div className="p-3 rounded-lg bg-[#1E1815] border border-[#38302A]">
-                          <div className="text-[#3D7EA6] font-bold flex items-center gap-1.5">
-                            <XCircle className="w-4 h-4 text-[#3D7EA6]" /> NO (Expenses)
-                          </div>
-                          <div className="text-[11px] text-[#34D399] font-bold mt-1.5">
-                            → SUBSTITUTE (100% AI)
-                          </div>
-                        </div>
-                        <div className="p-3 rounded-lg bg-[#2A1614] border border-[#C83E2D]/40">
-                          <div className="text-[#FFA499] font-bold flex items-center gap-1.5">
-                            <CheckCircle2 className="w-4 h-4 text-[#FF7360]" /> YES (Strategy)
-                          </div>
-                          <div className="text-[11px] text-[#FFA499] font-bold mt-1.5">
-                            → COMPLEMENT (Never Replace)
-                          </div>
-                        </div>
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
               </div>
             </div>
           </RetroIllustrationFrame>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Sparkles } from 'lucide-react';
+import { Ambient3DBackground } from '../components/Ambient3DBackground';
 
 interface SlideProps {
   step: number;
@@ -25,8 +25,8 @@ export const Slide08_HumiliatingMirror: React.FC<SlideProps> = ({ step }) => {
   };
 
   return (
-    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#12100E]">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(229,154,47,0.12),transparent_70%)] pointer-events-none" />
+    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#100E0C]">
+      <Ambient3DBackground variant={9} />
 
       {/* Main Grid */}
       <div className="relative z-10 w-full max-w-6xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -37,11 +37,6 @@ export const Slide08_HumiliatingMirror: React.FC<SlideProps> = ({ step }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="text-xs font-mono uppercase tracking-widest text-[#E59A2F] mb-3 flex items-center gap-1.5 font-semibold">
-              <Sparkles className="w-3.5 h-3.5" />
-              THE PHILOSOPHICAL IRONY
-            </div>
-
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-4">
               The Ultimate <br />
               <span className="text-[#E59A2F] italic">Ironic Mirror.</span>
@@ -115,19 +110,16 @@ export const Slide08_HumiliatingMirror: React.FC<SlideProps> = ({ step }) => {
                   transition={{ duration: 0.4 }}
                   className="relative z-10 w-full h-full flex flex-col justify-center items-center py-6 text-center"
                 >
-                  <div className="space-y-3 my-auto">
+                  <div className="my-auto">
                     <h3 className="text-2xl sm:text-3xl lg:text-4xl font-editorial font-bold text-[#FDFBF7] leading-snug">
                       Searching 1.8 Trillion Weights <br />
                       <span className="text-[#6BA8D1] italic">for the formula of creativity.</span>
                     </h3>
-                    <p className="text-xs sm:text-sm font-mono text-[#8E8375] max-w-md mx-auto leading-relaxed">
-                      Simulated the internet. Reached the statistical middle.
-                    </p>
                   </div>
                 </motion.div>
               )}
 
-              {/* REFLECTION 1: The Epiphany (Breaking News) */}
+              {/* REFLECTION 1: The Epiphany */}
               {activeStep === 1 && (
                 <motion.div
                   key="reflection-1"
@@ -138,9 +130,6 @@ export const Slide08_HumiliatingMirror: React.FC<SlideProps> = ({ step }) => {
                   className="relative z-10 w-full h-full flex flex-col justify-center items-center py-6 text-center"
                 >
                   <div className="my-auto space-y-2">
-                    <div className="text-xs font-mono uppercase font-bold text-[#C83E2D] tracking-widest">
-                      BREAKING NEWS:
-                    </div>
                     <h3 className="text-3xl sm:text-4xl lg:text-5xl font-editorial font-bold text-[#FDFBF7] tracking-tight leading-none">
                       "THINKING IS <br />
                       <span className="text-[#E59A2F]">

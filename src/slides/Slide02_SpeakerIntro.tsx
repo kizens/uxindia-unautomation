@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { MapPin } from 'lucide-react';
 import { LegoBlueprintFrame } from '../components/LegoBlueprintFrame';
+import { Ambient3DBackground } from '../components/Ambient3DBackground';
 
 interface SlideProps {
   step?: number;
@@ -9,8 +10,8 @@ interface SlideProps {
 
 export const Slide02_SpeakerIntro: React.FC<SlideProps> = () => {
   return (
-    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#12100E]">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(229,154,47,0.1),transparent_70%)] pointer-events-none" />
+    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#100E0C]">
+      <Ambient3DBackground variant={2} />
 
       {/* Main Grid */}
       <div className="relative z-10 w-full max-w-6xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">

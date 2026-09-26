@@ -1,11 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { motion } from "motion/react";
 import confetti from "canvas-confetti";
-import { 
-  Copy, 
-  Check, 
-  QrCode
-} from "lucide-react";
+import { QrCode } from "lucide-react";
 import retroWorkspaceBg from "../assets/retro_workspace_bg.jpg";
 import qrcodeImg from "../assets/qrcode.png";
 
@@ -14,11 +10,7 @@ interface SlideProps {
 }
 
 export const Slide12_ThankYou: React.FC<SlideProps> = ({ step = 0 }) => {
-  const [copied, setCopied] = useState(false);
-  const [confettiCount, setConfettiCount] = useState(0);
-
   const triggerConfetti = () => {
-    setConfettiCount(prev => prev + 1);
     try {
       confetti({
         particleCount: 90,
@@ -36,13 +28,6 @@ export const Slide12_ThankYou: React.FC<SlideProps> = ({ step = 0 }) => {
       triggerConfetti();
     }
   }, [step]);
-
-  const handleCopy = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    navigator.clipboard?.writeText?.("https://linktr.ee/sujitpradhan");
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2500);
-  };
 
   return (
     <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#12100E]">
@@ -117,28 +102,6 @@ export const Slide12_ThankYou: React.FC<SlideProps> = ({ step = 0 }) => {
                   className="absolute left-0 right-0 h-1 bg-emerald-400 opacity-80 shadow-[0_0_16px_rgba(16,185,129,0.95)] pointer-events-none z-10"
                 />
               </div>
-            </div>
-
-            {/* Clean Minimalist Connect Bar - Below QR */}
-            <div className="mt-4 w-full max-w-xs">
-              {/* Copy Link Button */}
-              <button
-                type="button"
-                onClick={handleCopy}
-                className="w-full py-2 px-3 rounded-xl bg-[#1E1815]/90 hover:bg-[#2C231E] border border-[#3E3228] text-xs font-mono text-[#D0C5B4] hover:text-white flex items-center justify-center gap-2 transition-all cursor-pointer active:scale-95 shadow-md"
-              >
-                {copied ? (
-                  <>
-                    <Check className="w-3.5 h-3.5 text-[#34D399]" />
-                    <span className="text-[#34D399] font-bold">Link Copied!</span>
-                  </>
-                ) : (
-                  <>
-                    <Copy className="w-3.5 h-3.5 text-[#E59A2F]" />
-                    <span>linktr.ee/sujitpradhan</span>
-                  </>
-                )}
-              </button>
             </div>
           </motion.div>
         </div>

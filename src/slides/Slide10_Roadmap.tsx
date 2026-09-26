@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import confetti from 'canvas-confetti';
 import { RetroIllustrationFrame } from '../components/RetroIllustrationFrame';
-import { Compass, Sparkles } from 'lucide-react';
+import { Ambient3DBackground } from '../components/Ambient3DBackground';
 
 interface SlideProps {
   step: number;
@@ -23,8 +23,8 @@ export const Slide10_Roadmap: React.FC<SlideProps> = ({ step }) => {
   }, [step]);
 
   return (
-    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#12100E]">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(200,62,45,0.15),transparent_75%)] pointer-events-none" />
+    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#100E0C]">
+      <Ambient3DBackground variant={10} />
 
       {/* Main Grid */}
       <div className="relative z-10 w-full max-w-6xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -35,11 +35,6 @@ export const Slide10_Roadmap: React.FC<SlideProps> = ({ step }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="text-xs font-mono uppercase tracking-widest text-[#C83E2D] mb-3 flex items-center gap-1.5 font-semibold">
-              <Compass className="w-3.5 h-3.5" />
-              ACTIONABLE ROADMAP
-            </div>
-
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-4">
               Three Rules <br />
               <span className="text-[#C83E2D] italic">for Tomorrow.</span>
@@ -50,7 +45,7 @@ export const Slide10_Roadmap: React.FC<SlideProps> = ({ step }) => {
             </p>
 
             {/* Stepped Single-Beat Message */}
-            <div className="h-28 flex items-center">
+            <div className="h-24 flex items-center">
               <AnimatePresence mode="wait">
                 {step === 0 && (
                   <motion.div
@@ -117,7 +112,7 @@ export const Slide10_Roadmap: React.FC<SlideProps> = ({ step }) => {
                 }}
                 className="p-3.5 rounded-lg border-2 flex items-center gap-4 transition-all"
               >
-                <div className="w-12 h-12 rounded-lg bg-[#E59A2F]/20 flex items-center justify-center text-2xl font-editorial font-bold text-[#F5B041]">
+                <div className="w-12 h-12 shrink-0 rounded-lg bg-[#E59A2F]/20 flex items-center justify-center text-2xl font-display leading-none [font-variant-numeric:lining-nums] text-[#F5B041]">
                   1
                 </div>
                 <div>
@@ -139,7 +134,7 @@ export const Slide10_Roadmap: React.FC<SlideProps> = ({ step }) => {
                 }}
                 className="p-3.5 rounded-lg border-2 flex items-center gap-4 transition-all"
               >
-                <div className="w-12 h-12 rounded-lg bg-[#3D7EA6]/20 flex items-center justify-center text-2xl font-editorial font-bold text-[#6BA8D1]">
+                <div className="w-12 h-12 shrink-0 rounded-lg bg-[#3D7EA6]/20 flex items-center justify-center text-2xl font-display leading-none [font-variant-numeric:lining-nums] text-[#6BA8D1]">
                   2
                 </div>
                 <div>
@@ -161,7 +156,7 @@ export const Slide10_Roadmap: React.FC<SlideProps> = ({ step }) => {
                 }}
                 className="p-3.5 rounded-lg border-2 flex items-center gap-4 transition-all"
               >
-                <div className="w-12 h-12 rounded-lg bg-[#C83E2D]/20 flex items-center justify-center text-2xl font-editorial font-bold text-[#FFA499]">
+                <div className="w-12 h-12 shrink-0 rounded-lg bg-[#C83E2D]/20 flex items-center justify-center text-2xl font-display leading-none [font-variant-numeric:lining-nums] text-[#FFA499]">
                   3
                 </div>
                 <div>

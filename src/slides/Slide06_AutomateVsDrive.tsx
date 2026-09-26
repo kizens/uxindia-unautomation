@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { RetroIllustrationFrame } from '../components/RetroIllustrationFrame';
+import { Ambient3DBackground } from '../components/Ambient3DBackground';
 import { Check, Sparkles } from 'lucide-react';
 
 interface SlideProps {
@@ -9,8 +10,8 @@ interface SlideProps {
 
 export const Slide06_AutomateVsDrive: React.FC<SlideProps> = ({ step }) => {
   return (
-    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#12100E]">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_60%,rgba(200,62,45,0.1),transparent_70%)] pointer-events-none" />
+    <div className="relative w-full h-full flex flex-col justify-center items-center px-8 md:px-16 py-8 overflow-hidden bg-[#100E0C]">
+      <Ambient3DBackground variant={7} />
 
       {/* Main Grid */}
       <div className="relative z-10 w-full max-w-6xl grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -21,11 +22,6 @@ export const Slide06_AutomateVsDrive: React.FC<SlideProps> = ({ step }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="text-xs font-mono uppercase tracking-widest text-[#E59A2F] mb-3 flex items-center gap-1.5 font-semibold">
-              <Check className="w-3.5 h-3.5" />
-              THE TACTICAL BOUNDARY
-            </div>
-
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-[#FDFBF7] font-editorial leading-[1.05] mb-4">
               Automating <br />
               the outcome <br />
@@ -120,14 +116,10 @@ export const Slide06_AutomateVsDrive: React.FC<SlideProps> = ({ step }) => {
                     </div>
                   </div>
                 </div>
-
-                <div className="pt-2 text-[10px] font-mono text-[#6BA8D1] flex items-center gap-1.5">
-                  <span>Dominated by cursor velocity</span>
-                </div>
               </motion.div>
 
               {/* Must Drive - Revealed Next (Step >= 1) with Human Touch */}
-              <div className="relative min-h-[260px] flex flex-col">
+              <div className="relative min-h-[240px] flex flex-col">
                 <AnimatePresence mode="wait">
                   {step === 0 ? (
                     <motion.div
@@ -186,10 +178,6 @@ export const Slide06_AutomateVsDrive: React.FC<SlideProps> = ({ step }) => {
                             • Strategic Point of View
                           </div>
                         </div>
-                      </div>
-
-                      <div className="pt-2 text-[10px] font-mono text-[#F5B041] flex items-center gap-1.5">
-                        <span>Protected by discernment and lived experience</span>
                       </div>
                     </motion.div>
                   )}
