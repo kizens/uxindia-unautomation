@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { RetroIllustrationFrame } from "../components/RetroIllustrationFrame";
 import { Ambient3DBackground } from "../components/Ambient3DBackground";
+import worldMapSvg from "../assets/world_map.svg";
 
 interface SlideProps {
   step: number;
@@ -144,7 +145,7 @@ export const Slide07_CalibratedTrust: React.FC<SlideProps> = ({ step }) => {
             <div className="relative w-full h-[260px] overflow-hidden flex flex-col justify-center">
               {/* Understated Map Silhouette Background */}
               <img
-                src="/assets/world_map.svg"
+                src={worldMapSvg}
                 alt="Map Silhouette"
                 className="absolute inset-0 w-full h-full object-contain opacity-20 pointer-events-none select-none"
               />
